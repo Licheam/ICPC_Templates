@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019) (preloaded format=xelatex 2019.11.16)  25 AUG 2020 16:37
+This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019) (preloaded format=xelatex 2019.11.16)  27 AUG 2020 15:07
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -863,12 +863,12 @@ Package rerunfilecheck Info: File `templates.out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 234.
  ) 
 Here is how much of TeX's memory you used:
- 25088 strings out of 492916
- 475519 string characters out of 6133344
- 940240 words of memory out of 5000000
- 28820 multiletter control sequences out of 15000+600000
+ 24653 strings out of 492916
+ 471341 string characters out of 6133344
+ 938392 words of memory out of 5000000
+ 28385 multiletter control sequences out of 15000+600000
  536786 words of font info for 67 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 51i,12n,74p,372b,1889s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 51i,12n,74p,372b,1838s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on templates.xdv (78 pages, 2460932 bytes).
+Output written on templates.xdv (78 pages, 2457524 bytes).
