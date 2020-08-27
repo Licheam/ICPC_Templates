@@ -1,9 +1,9 @@
 # Fdb version 3
-["xdvipdfmx"] 1598512080 "templates.xdv" "templates.pdf" "templates" 1598512093
-  "templates.xdv" 1598512080 2457524 1ac94aa1ba72b4ae5fddcd3e32a09a3d "xelatex"
+["xdvipdfmx"] 1598523433 "templates.xdv" "templates.pdf" "templates" 1598523434
+  "templates.xdv" 1598523433 2649768 efe35c01ca614a9250f8ce0a97bc87e4 "xelatex"
   (generated)
   "templates.pdf"
-["xelatex"] 1598512072 "templates.tex" "templates.xdv" "templates" 1598512093
+["xelatex"] 1598523426 "templates.tex" "templates.xdv" "templates" 1598523434
   "../图论/判断负环SPFA_Negtive_Cycle.cpp" 1592642855 1206 655e3786d1515ddfa75d2d7aaf1ef25e ""
   "../图论/拓扑排序Topological_Sort_Khan.cpp" 1576909795 1224 b2df6b2a46570632ce85f49e6c6909dc ""
   "../图论/最小生成树Kruskal.cpp" 1567918505 943 6d4b456975d21359a7214af690a8fd61 ""
@@ -48,6 +48,12 @@
   "../数论/求原根Get_Primitive_Root.cpp" 1580901248 556 1ac4614c5129709cb07efabbd8428e9c ""
   "../数论/贝祖引理Bezout_Lemma.cpp" 1580487260 285 40bbc55a185903efb96e79679f41bf5a ""
   "../数论/除法分块Block_Division.cpp" 1580042496 231 c9cedb0340f532e231569a30b69aaac6 ""
+  "../杂项/快读快写Fast_Read&Write.cpp" 1573554185 241 6593a79f5eb0f1cf0ba668a957b41011 ""
+  "../杂项/快速幂Fast_Power.cpp" 1584634341 278 624f91a11b8689353c1a3dd0323c3fff ""
+  "../杂项/快速沃尔什变换Fast_Walsh_Transform.cpp" 1598522828 2142 3ea23af89819c105cb6bb667a239b0c1 ""
+  "../杂项/最长公共子序列Longest_Increasing_Subsequence.cpp" 1575567740 650 faf42ef91c332831976995fabd44a066 ""
+  "../杂项/矩阵加速Matrix_Acceleration.cpp" 1580481582 1022 069add22ee280a755a95d4d16ec4d18d ""
+  "../杂项/矩阵快速幂Matrix_Fast_Power.cpp" 1580478711 872 c353f38428b6bd2616a9a0317d0feb04 ""
   "../网络流/二分图最大匹配Bipartite_Graph_Maximum_Matching_Hopcroft-Karp.cpp" 1577713464 1903 760d6dbbe047031daa9ec5b9ea2f95c9 ""
   "../网络流/二分图最大匹配Bipartite_Graph_Maximum_Matching_Hungarian.cpp" 1577551682 879 ad0bbf112c9cf76bfc1dca78a37acfc0 ""
   "../网络流/二分题最大匹配Bipartite_Graph_Maximum_Matching_Dinic.cpp" 1594732101 1804 1d2626b12285e1f3ba6e07a5d4de7e46 ""
@@ -55,7 +61,7 @@
   "../网络流/最大流Maximum_Flow_Edmonds-Karp.cpp" 1594733035 1554 6026f27624aa694058012c845ea22846 ""
   "../网络流/最大费用流Minimum-Cost_Flow_Edmonds-Karp.cpp" 1579268547 1888 52bcf47504cfbcc5eaa1ec56bad5ad32 ""
   "../计算几何/计算几何Compuational_Geometry.cpp" 1594707795 2888 7eb238b48f6a264ee85d90eff414c722 ""
-  "/dev/null" 1598512091 0 d41d8cd98f00b204e9800998ecf8427e ""
+  "/dev/null" 1598523389 0 d41d8cd98f00b204e9800998ecf8427e ""
   "/usr/local/texlive/2019/texmf-dist/fonts/map/fontname/texfonts.map" 1511824771 3332 103109f5612ad95229751940c61aada0 ""
   "/usr/local/texlive/2019/texmf-dist/fonts/tfm/adobe/zapfding/pzdr.tfm" 1136768653 1528 f853c4d1b4e0550255e02831fdc8496f ""
   "/usr/local/texlive/2019/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1246382020 1004 54797486969f23fa377b128694d548df ""
@@ -127,13 +133,13 @@
   "/usr/local/texlive/2019/texmf-dist/web2c/texmf.cnf" 1557092114 35484 cb1661360667bf4db662a8895053b554 ""
   "/usr/local/texlive/2019/texmf-var/web2c/xetex/xelatex.fmt" 1573914450 3751084 f5e7b0c67d3bb428066c9acb1226a111 ""
   "/usr/local/texlive/2019/texmf.cnf" 1557341546 577 d150fef99ac436ad1156e86b0892f6ef ""
-  "templates.aux" 1598512080 16663 1ed746018b74ab4b259985f9021231ee "xelatex"
-  "templates.out" 1598512080 4369 69b32d4d066f32f598cea5c3cba99b77 "xelatex"
-  "templates.tex" 1598512071 9473 63bf575e90706a4e747b92675db689d1 ""
-  "templates.toc" 1598512080 5523 1cb5c43d96c1ce7887ced166cc446349 "xelatex"
+  "templates.aux" 1598523433 18592 12ae96023bb0b144f3e71e58dd8f4b2c "xelatex"
+  "templates.out" 1598523433 4912 d9f6e2a4e9a16c273496c20db77ea77e "xelatex"
+  "templates.tex" 1598523409 10194 51981c13cc39c988b5ca0a6856793e65 ""
+  "templates.toc" 1598523433 6206 db7885fd62f54a56af2da860d861c566 "xelatex"
   (generated)
-  "templates.toc"
-  "templates.xdv"
   "templates.log"
   "templates.out"
+  "templates.toc"
+  "templates.xdv"
   "templates.aux"

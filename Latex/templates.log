@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019) (preloaded format=xelatex 2019.11.16)  27 AUG 2020 15:07
+This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019) (preloaded format=xelatex 2019.11.16)  27 AUG 2020 18:17
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -851,24 +851,28 @@ ph_Maximum_Matching_Hopcroft-
  []
 
 (../网络流/二分图最大匹配Bipartite_Graph_Maximum_Matching_Hopcroft-Karp.cpp [74])
-[75] (../计算几何/计算几何Compuational_Geometry.cpp [76] [77])
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 234.
- [78]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 234.
+[75] (../计算几何/计算几何Compuational_Geometry.cpp [76] [77]) [78]
+(../杂项/快读快写Fast_Read&Write.cpp) (../杂项/快速幂Fast_Power.cpp)
+(../杂项/矩阵快速幂Matrix_Fast_Power.cpp [79] [80]) (../杂项/矩阵加速Matrix_Acceleration.cpp
+[81]) (../杂项/最长公共子序列Longest_Increasing_Subsequence.cpp) [82]
+(../杂项/快速沃尔什变换Fast_Walsh_Transform.cpp [83])
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 249.
+ [84]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 249.
  (./templates.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 234.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 234.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 249.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 249.
 Package rerunfilecheck Info: File `templates.out' has not changed.
-(rerunfilecheck)             Checksum: 69B32D4D066F32F598CEA5C3CBA99B77.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 234.
+(rerunfilecheck)             Checksum: D9F6E2A4E9A16C273496C20DB77EA77E.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 249.
  ) 
 Here is how much of TeX's memory you used:
- 24653 strings out of 492916
- 471341 string characters out of 6133344
+ 24704 strings out of 492916
+ 472230 string characters out of 6133344
  938392 words of memory out of 5000000
- 28385 multiletter control sequences out of 15000+600000
+ 28417 multiletter control sequences out of 15000+600000
  536786 words of font info for 67 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  51i,12n,74p,372b,1838s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on templates.xdv (78 pages, 2457524 bytes).
+Output written on templates.xdv (84 pages, 2649768 bytes).

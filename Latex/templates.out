@@ -56,3 +56,10 @@
 \BOOKMARK [2][-]{subsection.6.6}{二分图最大匹配Bipartite_Graph_Maximum_Matching_Hopcroft-Karp}{section.6}% 56
 \BOOKMARK [1][-]{section.7}{计算几何}{}% 57
 \BOOKMARK [2][-]{subsection.7.1}{计算几何Compuational_Geometry}{section.7}% 58
+\BOOKMARK [1][-]{section.8}{杂项}{}% 59
+\BOOKMARK [2][-]{subsection.8.1}{快读快写Fast_Read&Write}{section.8}% 60
+\BOOKMARK [2][-]{subsection.8.2}{快速幂Fast_Power}{section.8}% 61
+\BOOKMARK [2][-]{subsection.8.3}{矩阵快速幂Matrix_Fast_Power}{section.8}% 62
+\BOOKMARK [2][-]{subsection.8.4}{矩阵加速Matrix_Acceleration}{section.8}% 63
+\BOOKMARK [2][-]{subsection.8.5}{最长公共子序列Longest_Increasing_Subsequence}{section.8}% 64
+\BOOKMARK [2][-]{subsection.8.6}{快速沃尔什变换Fast_Walsh_Transform}{section.8}% 65
