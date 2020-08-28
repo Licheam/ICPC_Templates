@@ -328,5 +328,8 @@ INPUT ../杂项/最长公共子序列Longest_Increasing_Subsequence.cpp
 INPUT ../杂项/快速沃尔什变换Fast_Walsh_Transform.cpp
 INPUT ../杂项/快速沃尔什变换Fast_Walsh_Transform.cpp
 INPUT ../杂项/快速沃尔什变换Fast_Walsh_Transform.cpp
+INPUT ../杂项/快速莫比乌斯变换Fast_Mobius_Transform.cpp
+INPUT ../杂项/快速莫比乌斯变换Fast_Mobius_Transform.cpp
+INPUT ../杂项/快速莫比乌斯变换Fast_Mobius_Transform.cpp
 INPUT templates.aux
 INPUT ./templates.out

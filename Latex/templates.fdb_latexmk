@@ -1,9 +1,9 @@
 # Fdb version 3
-["xdvipdfmx"] 1598523433 "templates.xdv" "templates.pdf" "templates" 1598523434
-  "templates.xdv" 1598523433 2649768 efe35c01ca614a9250f8ce0a97bc87e4 "xelatex"
+["xdvipdfmx"] 1598600116 "templates.xdv" "templates.pdf" "templates" 1598600117
+  "templates.xdv" 1598600116 2714208 62d4210beb8854e815996c10eeee3f30 "xelatex"
   (generated)
   "templates.pdf"
-["xelatex"] 1598523426 "templates.tex" "templates.xdv" "templates" 1598523434
+["xelatex"] 1598600109 "templates.tex" "templates.xdv" "templates" 1598600117
   "../图论/判断负环SPFA_Negtive_Cycle.cpp" 1592642855 1206 655e3786d1515ddfa75d2d7aaf1ef25e ""
   "../图论/拓扑排序Topological_Sort_Khan.cpp" 1576909795 1224 b2df6b2a46570632ce85f49e6c6909dc ""
   "../图论/最小生成树Kruskal.cpp" 1567918505 943 6d4b456975d21359a7214af690a8fd61 ""
@@ -51,6 +51,7 @@
   "../杂项/快读快写Fast_Read&Write.cpp" 1573554185 241 6593a79f5eb0f1cf0ba668a957b41011 ""
   "../杂项/快速幂Fast_Power.cpp" 1584634341 278 624f91a11b8689353c1a3dd0323c3fff ""
   "../杂项/快速沃尔什变换Fast_Walsh_Transform.cpp" 1598522828 2142 3ea23af89819c105cb6bb667a239b0c1 ""
+  "../杂项/快速莫比乌斯变换Fast_Mobius_Transform.cpp" 1598600023 2080 40104a39d028a338c31f7077e45c76d3 ""
   "../杂项/最长公共子序列Longest_Increasing_Subsequence.cpp" 1575567740 650 faf42ef91c332831976995fabd44a066 ""
   "../杂项/矩阵加速Matrix_Acceleration.cpp" 1580481582 1022 069add22ee280a755a95d4d16ec4d18d ""
   "../杂项/矩阵快速幂Matrix_Fast_Power.cpp" 1580478711 872 c353f38428b6bd2616a9a0317d0feb04 ""
@@ -61,7 +62,7 @@
   "../网络流/最大流Maximum_Flow_Edmonds-Karp.cpp" 1594733035 1554 6026f27624aa694058012c845ea22846 ""
   "../网络流/最大费用流Minimum-Cost_Flow_Edmonds-Karp.cpp" 1579268547 1888 52bcf47504cfbcc5eaa1ec56bad5ad32 ""
   "../计算几何/计算几何Compuational_Geometry.cpp" 1594707795 2888 7eb238b48f6a264ee85d90eff414c722 ""
-  "/dev/null" 1598523389 0 d41d8cd98f00b204e9800998ecf8427e ""
+  "/dev/null" 1598600099 0 d41d8cd98f00b204e9800998ecf8427e ""
   "/usr/local/texlive/2019/texmf-dist/fonts/map/fontname/texfonts.map" 1511824771 3332 103109f5612ad95229751940c61aada0 ""
   "/usr/local/texlive/2019/texmf-dist/fonts/tfm/adobe/zapfding/pzdr.tfm" 1136768653 1528 f853c4d1b4e0550255e02831fdc8496f ""
   "/usr/local/texlive/2019/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1246382020 1004 54797486969f23fa377b128694d548df ""
@@ -133,13 +134,13 @@
   "/usr/local/texlive/2019/texmf-dist/web2c/texmf.cnf" 1557092114 35484 cb1661360667bf4db662a8895053b554 ""
   "/usr/local/texlive/2019/texmf-var/web2c/xetex/xelatex.fmt" 1573914450 3751084 f5e7b0c67d3bb428066c9acb1226a111 ""
   "/usr/local/texlive/2019/texmf.cnf" 1557341546 577 d150fef99ac436ad1156e86b0892f6ef ""
-  "templates.aux" 1598523433 18592 12ae96023bb0b144f3e71e58dd8f4b2c "xelatex"
-  "templates.out" 1598523433 4912 d9f6e2a4e9a16c273496c20db77ea77e "xelatex"
-  "templates.tex" 1598523409 10194 51981c13cc39c988b5ca0a6856793e65 ""
-  "templates.toc" 1598523433 6206 db7885fd62f54a56af2da860d861c566 "xelatex"
+  "templates.aux" 1598600116 18927 6445e465dba0917c802b2af77a68d071 "xelatex"
+  "templates.out" 1598600116 5007 78b9a63abcd18220efd4ca85eac63715 "xelatex"
+  "templates.tex" 1598600101 10333 9a8b2c7cd1cc962ab506558ac0a17d9f ""
+  "templates.toc" 1598600116 6321 62f4465f6641fb93eb0618278f5d78ff "xelatex"
   (generated)
   "templates.log"
-  "templates.out"
-  "templates.toc"
   "templates.xdv"
+  "templates.toc"
   "templates.aux"
+  "templates.out"
