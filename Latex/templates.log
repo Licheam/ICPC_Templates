@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019) (preloaded format=xelatex 2019.11.16)  28 AUG 2020 15:35
+This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019) (preloaded format=xelatex 2019.11.16)  28 AUG 2020 16:20
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -857,23 +857,24 @@ ph_Maximum_Matching_Hopcroft-
 [81]) (../杂项/最长公共子序列Longest_Increasing_Subsequence.cpp) [82]
 (../杂项/快速沃尔什变换Fast_Walsh_Transform.cpp [83])
 (../杂项/快速莫比乌斯变换Fast_Mobius_Transform.cpp [84] [85])
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 251.
- [86]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 251.
+(../杂项/快速子集变换Fast_Subset_Transform.cpp [86])
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 253.
+ [87]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 253.
  (./templates.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 251.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 251.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 253.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 253.
 Package rerunfilecheck Info: File `templates.out' has not changed.
-(rerunfilecheck)             Checksum: 78B9A63ABCD18220EFD4CA85EAC63715.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 251.
+(rerunfilecheck)             Checksum: 5C0A983A553344DD90B7BB480A269AC4.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 253.
  ) 
 Here is how much of TeX's memory you used:
- 24715 strings out of 492916
- 472439 string characters out of 6133344
+ 24720 strings out of 492916
+ 472586 string characters out of 6133344
  954392 words of memory out of 5000000
- 28425 multiletter control sequences out of 15000+600000
+ 28427 multiletter control sequences out of 15000+600000
  536786 words of font info for 67 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  51i,12n,74p,372b,1838s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on templates.xdv (86 pages, 2714208 bytes).
+Output written on templates.xdv (87 pages, 2766032 bytes).

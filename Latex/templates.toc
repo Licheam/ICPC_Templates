@@ -64,3 +64,4 @@
 \contentsline {subsection}{\numberline {8.5}最长公共子序列Longest\_Increasing\_Subsequence}{82}{subsection.8.5}% 
 \contentsline {subsection}{\numberline {8.6}快速沃尔什变换Fast\_Walsh\_Transform}{83}{subsection.8.6}% 
 \contentsline {subsection}{\numberline {8.7}快速莫比乌斯变换Fast\_Mobius\_Transform}{84}{subsection.8.7}% 
+\contentsline {subsection}{\numberline {8.8}快速子集变换Fast\_Subset\_Transform}{86}{subsection.8.8}% 

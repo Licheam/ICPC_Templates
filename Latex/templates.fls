@@ -331,5 +331,8 @@ INPUT ../杂项/快速沃尔什变换Fast_Walsh_Transform.cpp
 INPUT ../杂项/快速莫比乌斯变换Fast_Mobius_Transform.cpp
 INPUT ../杂项/快速莫比乌斯变换Fast_Mobius_Transform.cpp
 INPUT ../杂项/快速莫比乌斯变换Fast_Mobius_Transform.cpp
+INPUT ../杂项/快速子集变换Fast_Subset_Transform.cpp
+INPUT ../杂项/快速子集变换Fast_Subset_Transform.cpp
+INPUT ../杂项/快速子集变换Fast_Subset_Transform.cpp
 INPUT templates.aux
 INPUT ./templates.out
