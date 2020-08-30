@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019) (preloaded format=xelatex 2019.11.16)  28 AUG 2020 22:26
+This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019) (preloaded format=xelatex 2019.11.16)  30 AUG 2020 21:31
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -821,60 +821,60 @@ LaTeX Font Info:    Font shape `TU/FandolSong-Regular(0)/m/sl' in size <10> not
 (../字符串/后缀数组Suffix_Array.cpp [26]) (../字符串/后缀自动机Suffix-Automaton.cpp [27]
 [28]) (../字符串/广义后缀自动机General_Suffix-Automaton.cpp [29] [30]) [31]
 (../数据结构/并查集Union_Find.cpp) (../数据结构/分块Block_1.cpp [32]) (../数据结构/分块Block_2.cpp
-[33] [34]) (../数据结构/分块Block_4.cpp [35]) (../数据结构/树状数组Binary_Indexed_Tree.cpp
-[36]) (../数据结构/树状数组2D_Binary_Indexed_Tree.cpp [37])
-(../数据结构/线段树Segment_Tree.cpp [38] [39]) (../数据结构/线段树Segment_Tree_Multiply.cpp
-[40] [41]) (../数据结构/扫描线Scanline.cpp [42] [43])
-(../数据结构/zkw线段树ZKW_Segment_Tree.cpp [44])
-(../数据结构/李超线段树Li-Chao_Segment_Tree.cpp [45] [46])
-(../数据结构/可并堆左偏树Leftist_Tree.cpp [47]) (../数据结构/Splay树Splay_Tree.cpp [48]
-[49] [50]) (../数据结构/Splay树Splay_Tree_Flip.cpp [51] [52])
-(../数据结构/Splay树Splay_Tree_Dye&Flip.cpp [53] [54] [55] [56]) [57]
-(../数论/乘法逆元Multiplicative_Inverse_Modulo.cpp) (../数论/卢卡斯Lucas.cpp [58])
-(../数论/拓展欧几里得Exgcd.cpp) (../数论/拓展欧拉定理Ex_Euler_Theorem.cpp [59])
-(../数论/欧拉筛Eular_Sieve.cpp [60]) (../数论/杜教筛Dujiao_Sieve.cpp [61] [62])
-(../数论/求原根Get_Primitive_Root.cpp [63]) (../数论/贝祖引理Bezout_Lemma.cpp)
-(../数论/除法分块Block_Division.cpp [64]) [65]
-(../网络流/最大费用流Minimum-Cost_Flow_Edmonds-Karp.cpp [66])
-(../网络流/最大流Maximum_Flow_Edmonds-Karp.cpp [67] [68])
-(../网络流/最大流Maximum_Flow_Dinic.cpp [69] [70])
-(../网络流/二分题最大匹配Bipartite_Graph_Maximum_Matching_Dinic.cpp [71]) [72]
-Overfull \hbox (9.44975pt too wide) in paragraph at lines 222--222
+[33] [34]) (../数据结构/分块Block_4.cpp [35]) (../数据结构/莫队算法Mo.cpp [36] [37])
+(../数据结构/树状数组Binary_Indexed_Tree.cpp [38])
+(../数据结构/树状数组2D_Binary_Indexed_Tree.cpp [39]) (../数据结构/线段树Segment_Tree.cpp
+[40] [41]) (../数据结构/线段树Segment_Tree_Multiply.cpp [42] [43])
+(../数据结构/扫描线Scanline.cpp [44]) [45] (../数据结构/zkw线段树ZKW_Segment_Tree.cpp
+[46]) (../数据结构/李超线段树Li-Chao_Segment_Tree.cpp [47] [48])
+(../数据结构/可并堆左偏树Leftist_Tree.cpp [49]) (../数据结构/Splay树Splay_Tree.cpp [50]
+[51] [52]) (../数据结构/Splay树Splay_Tree_Flip.cpp [53] [54])
+(../数据结构/Splay树Splay_Tree_Dye&Flip.cpp [55] [56] [57] [58]) [59]
+(../数论/乘法逆元Multiplicative_Inverse_Modulo.cpp) (../数论/卢卡斯Lucas.cpp [60])
+(../数论/拓展欧几里得Exgcd.cpp) (../数论/拓展欧拉定理Ex_Euler_Theorem.cpp [61])
+(../数论/欧拉筛Eular_Sieve.cpp [62]) (../数论/杜教筛Dujiao_Sieve.cpp [63] [64])
+(../数论/求原根Get_Primitive_Root.cpp [65]) (../数论/贝祖引理Bezout_Lemma.cpp)
+(../数论/除法分块Block_Division.cpp [66]) [67]
+(../网络流/最大费用流Minimum-Cost_Flow_Edmonds-Karp.cpp [68])
+(../网络流/最大流Maximum_Flow_Edmonds-Karp.cpp [69] [70])
+(../网络流/最大流Maximum_Flow_Dinic.cpp [71] [72])
+(../网络流/二分题最大匹配Bipartite_Graph_Maximum_Matching_Dinic.cpp [73]) [74]
+Overfull \hbox (9.44975pt too wide) in paragraph at lines 224--224
 []\TU/FandolSong-Regular(0)/bx/n/12 二 分 图 最 大 匹 配 \TU/lmr/bx/n/12 Bipartite_Gra
 ph_Maximum_Matching_Hungarian 
  []
 
-(../网络流/二分图最大匹配Bipartite_Graph_Maximum_Matching_Hungarian.cpp [73])
-Overfull \hbox (4.57776pt too wide) in paragraph at lines 224--224
+(../网络流/二分图最大匹配Bipartite_Graph_Maximum_Matching_Hungarian.cpp [75])
+Overfull \hbox (4.57776pt too wide) in paragraph at lines 226--226
 []\TU/FandolSong-Regular(0)/bx/n/12 二 分 图 最 大 匹 配 \TU/lmr/bx/n/12 Bipartite_Gra
 ph_Maximum_Matching_Hopcroft-
  []
 
-(../网络流/二分图最大匹配Bipartite_Graph_Maximum_Matching_Hopcroft-Karp.cpp [74])
-[75] (../计算几何/计算几何Compuational_Geometry.cpp [76] [77]) [78]
+(../网络流/二分图最大匹配Bipartite_Graph_Maximum_Matching_Hopcroft-Karp.cpp [76])
+[77] (../计算几何/计算几何Compuational_Geometry.cpp [78] [79]) [80]
 (../杂项/快读快写Fast_Read&Write.cpp) (../杂项/快速幂Fast_Power.cpp)
-(../杂项/矩阵快速幂Matrix_Fast_Power.cpp [79] [80]) (../杂项/矩阵加速Matrix_Acceleration.cpp
-[81]) (../杂项/最长公共子序列Longest_Increasing_Subsequence.cpp) [82]
-(../杂项/快速沃尔什变换Fast_Walsh_Transform.cpp [83])
-(../杂项/快速莫比乌斯变换Fast_Mobius_Transform.cpp [84] [85])
-(../杂项/快速子集变换Fast_Subset_Transform.cpp [86])
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 253.
- [87]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 253.
+(../杂项/矩阵快速幂Matrix_Fast_Power.cpp [81] [82]) (../杂项/矩阵加速Matrix_Acceleration.cpp
+[83]) (../杂项/最长公共子序列Longest_Increasing_Subsequence.cpp) [84]
+(../杂项/快速沃尔什变换Fast_Walsh_Transform.cpp [85])
+(../杂项/快速莫比乌斯变换Fast_Mobius_Transform.cpp [86] [87])
+(../杂项/快速子集变换Fast_Subset_Transform.cpp [88])
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 255.
+ [89]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 255.
  (./templates.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 253.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 253.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 255.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 255.
 Package rerunfilecheck Info: File `templates.out' has not changed.
-(rerunfilecheck)             Checksum: 5C0A983A553344DD90B7BB480A269AC4.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 253.
+(rerunfilecheck)             Checksum: 61FD5D99D572C558EC5FB4294FEFA99E.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 255.
  ) 
 Here is how much of TeX's memory you used:
- 24722 strings out of 492916
- 472600 string characters out of 6133344
+ 24733 strings out of 492916
+ 472714 string characters out of 6133344
  954392 words of memory out of 5000000
- 28429 multiletter control sequences out of 15000+600000
+ 28437 multiletter control sequences out of 15000+600000
  536786 words of font info for 67 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  51i,12n,74p,372b,1838s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on templates.xdv (87 pages, 2765184 bytes).
+Output written on templates.xdv (89 pages, 2830524 bytes).
