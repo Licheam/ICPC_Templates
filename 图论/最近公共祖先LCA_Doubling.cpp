@@ -19,13 +19,13 @@ void add(int x,int y){
 	head[x]=tot;
 }
 
-int dep[MAXN],lgd[MAXN],st[MAXN][MAXLN];
+int dep[MAXN],st[MAXN][MAXLN];
 
 void dfs(int cur,int fa){
 	dep[cur]=dep[fa]+1;
 	st[cur][0]=fa;
-	for(lgd[cur]=1;(1<<lgd[cur])<=dep[cur];lgd[cur]++)
-		st[cur][lgd[cur]]=st[st[cur][lgd[cur]-1]][lgd[cur]-1];
+	for(int l=1;(1<<l)<=dep[cur];l++)
+		st[cur][l]=st[st[cur][l-1]][l-1];
 
 	for(int p=head[cur];p;p=e[p].next){
 		if(e[p].to==fa) continue;
@@ -39,7 +39,9 @@ int lca(int x,int y){
 		if((dep[x]-dep[y])&(1<<i)) x=st[x][i];
 	if(x==y) return x;
 	
-	for(int i=lgd[x];i>=0;i--)
+	int l;
+	for(l=1;(1<<l)<=dep[x];l++);
+	for(int i=l;i>=0;i--)
 		if(st[x][i]!=st[y][i])
 			x=st[x][i], y=st[y][i];
 	return st[x][0];

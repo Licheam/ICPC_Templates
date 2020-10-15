@@ -2,91 +2,77 @@
 #include <algorithm>
 #define LL long long
 #define MAXN 100005
-#define MAXT MAXN<<2
 using namespace std;
 
-struct node{
-	int le,ri;
-	LL sum,tag;
-}sgt[MAXT];
+struct SGT{
+	LL sum[MAXN<<2],tag[MAXN<<2];
 
-int n,m;
+	void pushup(int x) {sum[x]=sum[x<<1]+sum[x<<1|1];}
+	void pushdown(int x,int l,int r) {
+		int m=(l+r)>>1;
+		sum[x<<1]+=tag[x]*(m-l+1);
+		tag[x<<1]+=tag[x];
+		sum[x<<1|1]+=tag[x]*(r-m);
+		tag[x<<1|1]+=tag[x];
+		tag[x]=0;
+	}
+
+	void build(int x,int l,int r,LL *a) {
+		tag[x]=0;
+		if(l==r) sum[x]=a[l];
+		else {
+			int m=(l+r)>>1;
+			build(x<<1,l,m,a);
+			build(x<<1|1,m+1,r,a);
+			pushup(x);
+		}
+	}
+
+	void modify(int x,int l,int r,int ql,int qr,LL delta) {
+		if(ql<=l && r<=qr) {
+			sum[x]+=delta*(r-l+1);
+			tag[x]+=delta;
+			return;
+		}
+		if(tag[x]) pushdown(x,l,r);
+		int m=(l+r)>>1;
+		if(ql<=m) modify(x<<1,l,m,ql,qr,delta);
+		if(m<qr) modify(x<<1|1,m+1,r,ql,qr,delta);
+		// sum[x]=tag[x]*(r-l+1)+sum[x<<1]+sum[x<<1|1];
+		pushup(x);
+	}
+
+	LL query(int x,int l,int r,int ql,int qr){
+		if(ql<=l && r<=qr) return sum[x];
+
+		if(tag[x]) pushdown(x,l,r);
+		int m=(l+r)>>1;		
+		LL res=0;
+		if(ql<=m) res+=query(x<<1,l,m,ql,qr);
+		if(m<qr) res+=query(x<<1|1,m+1,r,ql,qr);
+		// res+=tag[x]*(min(qr,r)-max(ql,l)+1);
+		return res;
+	}
+}sgt;
+
 LL a[MAXN];
 
-void build(int cur,int l,int r){
-	sgt[cur].le=l;
-	sgt[cur].ri=r;
-	sgt[cur].tag=0;
-	if(l+1<r){
-		int le=cur<<1,ri=le+1;
-		build(le,l,(l+r)>>1);
-		build(ri,(l+r)>>1,r);
-		sgt[cur].sum=sgt[le].sum+sgt[ri].sum;
-	}
-	else
-		sgt[cur].sum=a[l];
-}
-
-void update(int cur){
-	int le=cur<<1,ri=le+1;
-	sgt[le].sum+=sgt[cur].tag*(sgt[le].ri-sgt[le].le);
-	sgt[le].tag+=sgt[cur].tag;
-	sgt[ri].sum+=sgt[cur].tag*(sgt[ri].ri-sgt[ri].le);
-	sgt[ri].tag+=sgt[cur].tag;
-	sgt[cur].tag=0;
-
-}
-
-void modify(int cur,int l,int r,LL delta){
-	if(l<=sgt[cur].le && sgt[cur].ri<=r){
-		sgt[cur].sum+=delta*(sgt[cur].ri-sgt[cur].le);
-		sgt[cur].tag+=delta;
-	}
-	else{
-		int le=cur<<1,ri=le+1,mid=(sgt[cur].le+sgt[cur].ri)>>1;
-		if(sgt[cur].tag)
-			update(cur);
-		if(l<mid)
-			modify(le,l,r,delta);
-		if(mid<r)
-			modify(ri,l,r,delta);
-		// sgt[cur].sum=sgt[cur].tag*(sgt[cur].ri-sgt[cur].le)+sgt[le].sum+sgt[ri].sum;
-		sgt[cur].sum=sgt[le].sum+sgt[ri].sum;
-	}
-}
-
-LL query(int cur,int l,int r){
-	if(l<=sgt[cur].le && sgt[cur].ri<=r)
-		return sgt[cur].sum;
-	else{
-		int le=cur<<1,ri=le+1,mid=(sgt[cur].le+sgt[cur].ri)>>1;
-		if(sgt[cur].tag) update(cur);
-		LL sum=0;
-		if(l<mid)
-			sum+=query(le,l,r);
-		if(mid<r)
-			sum+=query(ri,l,r);
-		// sum+=sgt[cur].tag*(min(r,sgt[cur].ri)-max(l,sgt[cur].le));
-		return sum;
-	}
-}
-
 int main(){
+	int n,m;
 	scanf("%d %d",&n,&m);
-	for(int i=1;i<=n;i++)
-		scanf("%lld",&a[i]);
-	build(1,1,n+1);
+	for(int i=1;i<=n;i++) scanf("%lld", &a[i]);
+	sgt.build(1,1,n,a);
 	for(int i=1;i<=m;i++){
-		int cmd,le,ri;
-		scanf("%d",&cmd);
-		if(cmd==1){
+		int op,l,r;
+		scanf("%d", &op);
+		if(op==1){
 			LL k;
-			scanf("%d %d %lld",&le,&ri,&k);
-			modify(1,le,ri+1,k);
+			scanf("%d %d %lld",&l,&r,&k);
+			sgt.modify(1,1,n,l,r,k);
 		}
 		else{
-			scanf("%d %d",&le,&ri);
-			printf("%lld\n", query(1,le,ri+1));
+			scanf("%d %d",&l,&r);
+			printf("%lld\n", sgt.query(1,1,n,l,r));
 		}
 	}
 	return 0;
