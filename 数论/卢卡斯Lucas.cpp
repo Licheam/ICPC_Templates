@@ -2,17 +2,22 @@
 #define LL long long
 #define MAXP 100005
 
-int inv[MAXP];
 int f[MAXP],fi[MAXP];
 
+LL binpow(LL x,LL y,LL m){
+    LL r=1%m;
+    for(;y;y>>=1,x=x*x%m)
+        if(y&1) r=r*x%m;
+    return r;
+}
+
 void pre(LL p){
-    inv[1]=1;
-    f[0]=fi[0]=f[1]=fi[1]=1;
-    for(int i=2;i<=p-1;i++) {
-        inv[i]=1LL*(p-p/i)*inv[p%i]%p;
+    f[0]=1;
+    for(int i=1;i<=p-1;i++)
         f[i]=1LL*f[i-1]*i%p;
-        fi[i]=1LL*fi[i-1]*inv[i]%p;
-    }
+    fi[p-1]=binpow(f[p-1],p-2,p);
+    for(int i=p-1;i;i--)
+        fi[i-1]=1LL*fi[i]*i%p;
 }
 
 LL C(LL x,LL y,LL p) {

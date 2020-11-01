@@ -1,9 +1,9 @@
 # Fdb version 3
-["xdvipdfmx"] 1602733836 "templates.xdv" "templates.pdf" "templates" 1602733837
-  "templates.xdv" 1602733836 2892480 5d32848907efe5c4d0c0361e1fcee2ea "xelatex"
+["xdvipdfmx"] 1604212271 "templates.xdv" "templates.pdf" "templates" 1604212272
+  "templates.xdv" 1604212270 2898004 17c9046f521cdc5577a89d60c67c3a25 "xelatex"
   (generated)
   "templates.pdf"
-["xelatex"] 1602733828 "templates.tex" "templates.xdv" "templates" 1602733837
+["xelatex"] 1604212263 "templates.tex" "templates.xdv" "templates" 1604212272
   "../图论/判断负环SPFA_Negtive_Cycle.cpp" 1592642855 1206 655e3786d1515ddfa75d2d7aaf1ef25e ""
   "../图论/拓扑排序Topological_Sort_Khan.cpp" 1576909795 1224 b2df6b2a46570632ce85f49e6c6909dc ""
   "../图论/最小生成树Kruskal.cpp" 1567918505 943 6d4b456975d21359a7214af690a8fd61 ""
@@ -38,10 +38,10 @@
   "../数据结构/树状数组2D_Binary_Indexed_Tree.cpp" 1568030820 696 d392b743f4a60c3cefbd540286652e79 ""
   "../数据结构/树状数组Binary_Indexed_Tree.cpp" 1595859392 1134 42fd8d9d57e4b42178fa2cd9f9f2e366 ""
   "../数据结构/线段树Segment_Tree.cpp" 1602733648 1540 9af96fbefb7acec55090bad1d6b21aba ""
-  "../数据结构/线段树Segment_Tree_Multiply.cpp" 1581063687 2297 6dac642d4418ef6bf69c5659f229e4e3 ""
+  "../数据结构/线段树Segment_Tree_Multiply.cpp" 1604212206 2571 356cc1b8cb0bc28822c5a86007582789 ""
   "../数据结构/莫队算法Mo.cpp" 1598793964 2023 71777c8ca10315f0d12d87f3bde52dfe ""
   "../数论/乘法逆元Multiplicative_Inverse_Modulo.cpp" 1599278126 996 e0f656b82aab04187433a05634f9de37 ""
-  "../数论/卢卡斯Lucas.cpp" 1598624647 683 2b0cdf56d74f15a90fcc120569cd52db ""
+  "../数论/卢卡斯Lucas.cpp" 1603198479 753 afd9ebd5050becf9cdbfd64dbad8d1b4 ""
   "../数论/拓展欧几里得Exgcd.cpp" 1580492408 629 c48df9bed68d8e624bf79773173e2de2 ""
   "../数论/拓展欧拉定理Ex_Euler_Theorem.cpp" 1592384269 826 ea897885221c4f32239d05ab10c175bc ""
   "../数论/杜教筛Dujiao_Sieve.cpp" 1580304275 1294 82703949baa67ca1340cb01fe0f41f82 ""
@@ -52,7 +52,7 @@
   "../杂项/24点24_Point.cpp" 1599057156 1699 d857eb1ebf187b618368615d4a6b5b8f ""
   "../杂项/快读快写Fast_Read&Write.cpp" 1573554185 241 6593a79f5eb0f1cf0ba668a957b41011 ""
   "../杂项/快速子集变换Fast_Subset_Transform.cpp" 1598602742 1672 229e3e6c531fee7332cd0465e57c019a ""
-  "../杂项/快速幂Fast_Power.cpp" 1584634341 278 624f91a11b8689353c1a3dd0323c3fff ""
+  "../杂项/快速幂Fast_Power.cpp" 1603198124 436 dbb77bf4d7a1ff6cd3cdfd35e7d115be ""
   "../杂项/快速沃尔什变换Fast_Walsh_Transform.cpp" 1598522828 2142 3ea23af89819c105cb6bb667a239b0c1 ""
   "../杂项/快速莫比乌斯变换Fast_Mobius_Transform.cpp" 1598600023 2080 40104a39d028a338c31f7077e45c76d3 ""
   "../杂项/最长公共子序列Longest_Increasing_Subsequence.cpp" 1575567740 650 faf42ef91c332831976995fabd44a066 ""
@@ -65,7 +65,7 @@
   "../网络流/最大流Maximum_Flow_Edmonds-Karp.cpp" 1594733035 1554 6026f27624aa694058012c845ea22846 ""
   "../网络流/最大费用流Minimum-Cost_Flow_Edmonds-Karp.cpp" 1579268547 1888 52bcf47504cfbcc5eaa1ec56bad5ad32 ""
   "../计算几何/计算几何Compuational_Geometry.cpp" 1594707795 2888 7eb238b48f6a264ee85d90eff414c722 ""
-  "/dev/null" 1602733810 0 d41d8cd98f00b204e9800998ecf8427e ""
+  "/dev/null" 1604212263 0 d41d8cd98f00b204e9800998ecf8427e ""
   "/usr/local/texlive/2019/texmf-dist/fonts/map/fontname/texfonts.map" 1511824771 3332 103109f5612ad95229751940c61aada0 ""
   "/usr/local/texlive/2019/texmf-dist/fonts/tfm/adobe/zapfding/pzdr.tfm" 1136768653 1528 f853c4d1b4e0550255e02831fdc8496f ""
   "/usr/local/texlive/2019/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1246382020 1004 54797486969f23fa377b128694d548df ""
@@ -137,13 +137,13 @@
   "/usr/local/texlive/2019/texmf-dist/web2c/texmf.cnf" 1557092114 35484 cb1661360667bf4db662a8895053b554 ""
   "/usr/local/texlive/2019/texmf-var/web2c/xetex/xelatex.fmt" 1573914450 3751084 f5e7b0c67d3bb428066c9acb1226a111 ""
   "/usr/local/texlive/2019/texmf.cnf" 1557341546 577 d150fef99ac436ad1156e86b0892f6ef ""
-  "templates.aux" 1602733836 19754 309f9e08d433f4f5f1cac5b49f8b3d94 "xelatex"
-  "templates.out" 1602733836 5224 2676e93832008358a8f18c521bfa4250 "xelatex"
+  "templates.aux" 1604212270 19754 95afdd2777377c029e99cee494fffae5 "xelatex"
+  "templates.out" 1604212270 5224 2676e93832008358a8f18c521bfa4250 "xelatex"
   "templates.tex" 1599057208 10615 34de768feabdc50b333122d28fad89da ""
-  "templates.toc" 1602733836 6596 ca989855da27928c54f5114e4fc39f4b "xelatex"
+  "templates.toc" 1604212270 6596 6f070b9c9aa9ff2db9f0fdd7a0a74261 "xelatex"
   (generated)
-  "templates.log"
   "templates.out"
+  "templates.log"
   "templates.toc"
   "templates.aux"
   "templates.xdv"

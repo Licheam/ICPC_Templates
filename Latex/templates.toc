@@ -36,8 +36,8 @@
 \contentsline {subsection}{\numberline {4.12}李超线段树Li-Chao\_Segment\_Tree}{47}{subsection.4.12}% 
 \contentsline {subsection}{\numberline {4.13}可并堆左偏树Leftist\_Tree}{48}{subsection.4.13}% 
 \contentsline {subsection}{\numberline {4.14}Splay树Splay\_Tree}{50}{subsection.4.14}% 
-\contentsline {subsection}{\numberline {4.15}Splay树Splay\_Tree\_Flip}{53}{subsection.4.15}% 
-\contentsline {subsection}{\numberline {4.16}Splay树Splay\_Tree\_Dye\&Flip}{55}{subsection.4.16}% 
+\contentsline {subsection}{\numberline {4.15}Splay树Splay\_Tree\_Flip}{52}{subsection.4.15}% 
+\contentsline {subsection}{\numberline {4.16}Splay树Splay\_Tree\_Dye\&Flip}{54}{subsection.4.16}% 
 \contentsline {section}{\numberline {5}数论}{59}{section.5}% 
 \contentsline {subsection}{\numberline {5.1}乘法逆元Multiplicative\_Inverse\_Modulo}{59}{subsection.5.1}% 
 \contentsline {subsection}{\numberline {5.2}卢卡斯Lucas}{60}{subsection.5.2}% 
@@ -45,7 +45,7 @@
 \contentsline {subsection}{\numberline {5.4}拓展欧拉定理Ex\_Euler\_Theorem-Automaton}{61}{subsection.5.4}% 
 \contentsline {subsection}{\numberline {5.5}欧拉筛Eular\_Sieve}{62}{subsection.5.5}% 
 \contentsline {subsection}{\numberline {5.6}杜教筛Dujiao\_Sieve}{63}{subsection.5.6}% 
-\contentsline {subsection}{\numberline {5.7}求原根Get\_Primitive\_Root}{64}{subsection.5.7}% 
+\contentsline {subsection}{\numberline {5.7}求原根Get\_Primitive\_Root}{65}{subsection.5.7}% 
 \contentsline {subsection}{\numberline {5.8}贝祖引理Bezout\_Lemma}{65}{subsection.5.8}% 
 \contentsline {subsection}{\numberline {5.9}除法分块Block\_Division}{66}{subsection.5.9}% 
 \contentsline {section}{\numberline {6}网络流}{67}{section.6}% 
@@ -60,7 +60,7 @@
 \contentsline {section}{\numberline {8}杂项}{80}{section.8}% 
 \contentsline {subsection}{\numberline {8.1}快读快写Fast\_Read\&Write}{80}{subsection.8.1}% 
 \contentsline {subsection}{\numberline {8.2}快速幂Fast\_Power}{80}{subsection.8.2}% 
-\contentsline {subsection}{\numberline {8.3}矩阵快速幂Matrix\_Fast\_Power}{80}{subsection.8.3}% 
+\contentsline {subsection}{\numberline {8.3}矩阵快速幂Matrix\_Fast\_Power}{81}{subsection.8.3}% 
 \contentsline {subsection}{\numberline {8.4}矩阵加速Matrix\_Acceleration}{82}{subsection.8.4}% 
 \contentsline {subsection}{\numberline {8.5}最长公共子序列Longest\_Increasing\_Subsequence}{83}{subsection.8.5}% 
 \contentsline {subsection}{\numberline {8.6}快速沃尔什变换Fast\_Walsh\_Transform}{84}{subsection.8.6}% 
