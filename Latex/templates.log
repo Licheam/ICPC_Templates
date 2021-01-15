@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020) (preloaded format=xelatex 2020.11.15)  15 JAN 2021 10:47
+This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020) (preloaded format=xelatex 2020.11.15)  15 JAN 2021 11:23
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -663,9 +663,9 @@ LaTeX Font Info:    Font shape `TU/FandolSong-Regular(0)/m/sl' in size <10> not
 (Font)              Font shape `TU/FandolSong-Regular(0)/m/it' tried instead on
  input line 51.
  [3]) (../图论/最小生成树Prim.cpp [4]) (../图论/最短路Djikstra.cpp
-[5] [6]) (../图论/最短路SPFA.cpp [7]) (../图论/最近公共祖先LCA_Doubling.cpp [8])
-(../图论/最近公共祖先LCA_Tarjan.cpp [9] [10]) (../图论/判断负环SPFA_Negtive_Cycle.cpp
-[11]) [12] (../图论/拓扑排序Topological_Sort_Khan.cpp [13]) [14]
+[5] [6]) (../图论/最短路SPFA.cpp [7]) (../图论/最近公共祖先LCA_Doubling.cpp [8]) [9]
+(../图论/最近公共祖先LCA_Tarjan.cpp [10]) (../图论/判断负环SPFA_Negtive_Cycle.cpp [11])
+[12] (../图论/拓扑排序Topological_Sort_Khan.cpp [13]) [14]
 (../多项式/FFT字符串匹配String_Match_FFT.cpp [15])
 (../多项式/FFT递归Fast_Fourier_Transform_Cooley-Tukey_Recursion.cpp [16])
 (../多项式/FFT递推Fast_Fourier_Transform_Cooley-Tukey_Iteration.cpp [17] [18])
@@ -725,10 +725,10 @@ Package rerunfilecheck Info: File `templates.out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 257.
  ) 
 Here is how much of TeX's memory you used:
- 16214 strings out of 479418
- 311655 string characters out of 5884584
+ 16210 strings out of 479418
+ 311597 string characters out of 5884584
  1002684 words of memory out of 5000000
- 33332 multiletter control sequences out of 15000+600000
+ 33328 multiletter control sequences out of 15000+600000
  536826 words of font info for 72 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  52i,12n,78p,303b,1862s stack positions out of 5000i,500n,10000p,200000b,80000s
