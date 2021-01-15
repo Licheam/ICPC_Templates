@@ -1,11 +1,10 @@
 #include <cstdio>
 #include <algorithm>
-#define LL long long
-#define MAXN 2100005
-#define MOD 998244353
-#define RT 3
-
 using namespace std;
+#define LL long long
+const int MAXN=2100005
+const int MOD=998244353
+const int RT=3;
 
 LL binpow(LL x,LL y,LL mod){
 	LL r=1%mod;
@@ -38,11 +37,12 @@ void NTT(int n,int* P,int f){
 	}
 }
 
-int n,m,lim;
 int A[MAXN],B[MAXN];
 
 int main(){
+	int n,m;
 	scanf("%d %d", &n, &m);
+	int lim;
 	for(lim=1;lim<=n+m;lim<<=1);
 	for(int i=0;i<n+1;i++){
 		scanf("%d", &A[i]);
