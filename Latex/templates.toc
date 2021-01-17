@@ -33,7 +33,7 @@
 \contentsline {subsection}{\numberline {4.9}线段树Segment\_Tree\_Multiply}{42}{subsection.4.9}%
 \contentsline {subsection}{\numberline {4.10}扫描线Scanline}{44}{subsection.4.10}%
 \contentsline {subsection}{\numberline {4.11}zkw线段树ZKW\_Segment\_Tree}{45}{subsection.4.11}%
-\contentsline {subsection}{\numberline {4.12}李超线段树Li-Chao\_Segment\_Tree}{47}{subsection.4.12}%
+\contentsline {subsection}{\numberline {4.12}李超线段树Li-Chao\_Segment\_Tree}{46}{subsection.4.12}%
 \contentsline {subsection}{\numberline {4.13}可并堆左偏树Leftist\_Tree}{48}{subsection.4.13}%
 \contentsline {subsection}{\numberline {4.14}Splay树Splay\_Tree}{50}{subsection.4.14}%
 \contentsline {subsection}{\numberline {4.15}Splay树Splay\_Tree\_Flip}{52}{subsection.4.15}%

@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020) (preloaded format=xelatex 2020.11.15)  17 JAN 2021 00:58
+This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020) (preloaded format=xelatex 2020.11.15)  17 JAN 2021 10:50
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -679,9 +679,9 @@ LaTeX Font Info:    Font shape `TU/FandolSong-Regular(0)/m/sl' in size <10> not
 [33] [34]) (../数据结构/分块Block_4.cpp [35]) (../数据结构/莫队算法Mo.cpp [36] [37])
 (../数据结构/树状数组Binary_Indexed_Tree.cpp [38])
 (../数据结构/树状数组2D_Binary_Indexed_Tree.cpp [39]) (../数据结构/线段树Segment_Tree.cpp
-[40] [41]) (../数据结构/线段树Segment_Tree_Multiply.cpp [42]) [43]
+[40]) [41] (../数据结构/线段树Segment_Tree_Multiply.cpp [42]) [43]
 (../数据结构/扫描线Scanline.cpp [44]) (../数据结构/zkw线段树ZKW_Segment_Tree.cpp [45])
-[46] (../数据结构/李超线段树Li-Chao_Segment_Tree.cpp [47])
+(../数据结构/李超线段树Li-Chao_Segment_Tree.cpp [46] [47])
 (../数据结构/可并堆左偏树Leftist_Tree.cpp [48] [49]) (../数据结构/Splay树Splay_Tree.cpp
 [50] [51]) (../数据结构/Splay树Splay_Tree_Flip.cpp [52] [53])
 (../数据结构/Splay树Splay_Tree_Dye&Flip.cpp [54] [55] [56] [57]) [58]
@@ -725,10 +725,10 @@ Package rerunfilecheck Info: File `templates.out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 257.
  ) 
 Here is how much of TeX's memory you used:
- 16212 strings out of 479418
- 311613 string characters out of 5884584
- 1001684 words of memory out of 5000000
- 33330 multiletter control sequences out of 15000+600000
+ 16214 strings out of 479418
+ 311629 string characters out of 5884584
+ 1002684 words of memory out of 5000000
+ 33332 multiletter control sequences out of 15000+600000
  536826 words of font info for 72 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  52i,12n,78p,303b,1862s stack positions out of 5000i,500n,10000p,200000b,80000s
