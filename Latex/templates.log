@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020) (preloaded format=xelatex 2020.11.15)  17 JAN 2021 13:07
+This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020) (preloaded format=xelatex 2020.11.15)  22 JAN 2021 00:33
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -713,13 +713,13 @@ h_Maximum_Matching_Hopcroft-
 (../杂项/快速沃尔什变换Fast_Walsh_Transform.cpp [86])
 (../杂项/快速莫比乌斯变换Fast_Mobius_Transform.cpp [87] [88])
 (../杂项/快速子集变换Fast_Subset_Transform.cpp [89]) (../杂项/24点24_Point.cpp [90])
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 262.
-
-[91]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 262.
+[91] (../杂项/wqs二分+决策单调性dp.cpp [92])
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 264.
+ [93]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 264.
  (./templates.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 262.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 262.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 264.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 264.
 
 
 Package rerunfilecheck Warning: File `templates.out' has changed.
@@ -727,17 +727,17 @@ Package rerunfilecheck Warning: File `templates.out' has changed.
 (rerunfilecheck)                or use package `bookmark'.
 
 Package rerunfilecheck Info: Checksums for `templates.out':
-(rerunfilecheck)             Before: 2676E93832008358A8F18C521BFA4250;5224
-(rerunfilecheck)             After:  ED6226992D617DD570319A9801152832;5340.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 262.
+(rerunfilecheck)             Before: ED6226992D617DD570319A9801152832;5340
+(rerunfilecheck)             After:  F7A30207F3F608A23CE03E4172837B82;5418.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 264.
  ) 
 Here is how much of TeX's memory you used:
- 16237 strings out of 479418
- 312975 string characters out of 5884584
+ 16244 strings out of 479418
+ 313082 string characters out of 5884584
  1002684 words of memory out of 5000000
- 33351 multiletter control sequences out of 15000+600000
+ 33355 multiletter control sequences out of 15000+600000
  536826 words of font info for 72 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  52i,12n,78p,303b,1862s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on templates.pdf (91 pages).
+Output written on templates.pdf (93 pages).
