@@ -1,0 +1,14 @@
+
+Latex/.DS_Store
+.DS_Store
+.DS_Store
+Latex/.DS_Store
+Latex/templates.aux
+Latex/templates.fdb_latexmk
+Latex/templates.fls
+*.log
+*.fls
+*.out
+*.gz
+*.toc
+*.xdv
