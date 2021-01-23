@@ -1,11 +1,8 @@
 
 Latex/.DS_Store
 .DS_Store
-.DS_Store
-Latex/.DS_Store
-Latex/templates.aux
-Latex/templates.fdb_latexmk
-Latex/templates.fls
+*.aux
+*.fdb_latexmk
 *.log
 *.fls
 *.out
