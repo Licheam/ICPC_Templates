@@ -5,7 +5,7 @@
 #define MOD 1000000007
 
 struct Matrix{
-	LL num[MAXN][MAXN];
+	int num[MAXN][MAXN];
 	int n,m;
 
 	Matrix(int nn,int mm){
@@ -24,7 +24,7 @@ struct Matrix{
 		for(int i=1;i<=x.n;i++){
 			for(int j=1;j<=y.m;j++){
 				for(int k=1;k<=x.m;k++){
-					ans.num[i][j]=(ans.num[i][j]+x.num[i][k]*y.num[k][j]%MOD)%MOD;
+					ans.num[i][j]=(ans.num[i][j]+1LL*x.num[i][k]*y.num[k][j]%MOD)%MOD;
 				}
 			}
 		}
@@ -55,7 +55,7 @@ int main(){
 			x=binpow(x,n-3);
 			Matrix y(3,1);
 			for(int i=1;i<=3;i++) y.num[i][1]=1;
-			printf("%lld\n", (x*y).num[1][1]);
+			printf("%d\n", (x*y).num[1][1]);
 		}
 	}
 	return 0;
