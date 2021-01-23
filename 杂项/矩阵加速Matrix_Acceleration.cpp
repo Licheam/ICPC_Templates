@@ -18,7 +18,7 @@ struct Matrix{
 		for(int i=1;i<=nn;i++) num[i][i]=1;
 	}
 
-	Matrix operator*(const Matrix y){
+	Matrix operator*(const Matrix &y) const{
 		Matrix x=*this,ans(x.n,y.m);
 		if(x.m!=y.n) return ans;
 		for(int i=1;i<=x.n;i++){
