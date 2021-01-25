@@ -1,5 +1,6 @@
 # ICPC Templates
-ICPC Templates in Latex
+ICPC Templates of Leachim in LaTeX
+这是我用LaTeX整理的ICPC模板（会持续更新）
 
 PDF is in Latex/templates.pdf
 
