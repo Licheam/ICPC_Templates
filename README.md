@@ -3,6 +3,6 @@ ICPC Templates in Latex
 
 PDF is in Latex/templates.pdf
 
-Latex is in Latex/templates.tex
+LaTeX file is in Latex/templates.tex
 
 I will keep this updated.
