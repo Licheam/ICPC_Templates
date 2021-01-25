@@ -1,4 +1,4 @@
-# ICPC_Templates
+# ICPC Templates
 ICPC Templates in Latex
 
 PDF is in Latex/templates.pdf
