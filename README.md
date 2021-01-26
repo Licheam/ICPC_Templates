@@ -4,6 +4,6 @@ ICPC Templates of Leachim in LaTeX
 
 [PDF](https://github.com/Michaelwmx/ICPC_Templates/blob/master/Latex/templates.pdf)
 
-[TeX file](https://github.com/Michaelwmx/ICPC_Templates/blob/master/Latex/templates.pdf)
+[TeX file](https://github.com/Michaelwmx/ICPC_Templates/blob/master/Latex/templates.tex)
 
 I will keep this updated.
