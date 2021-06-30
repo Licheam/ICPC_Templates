@@ -1,5 +1,4 @@
-
-Latex/.DS_Store
+*.pdf
 .DS_Store
 *.aux
 *.fdb_latexmk
@@ -9,4 +8,3 @@ Latex/.DS_Store
 *.gz
 *.toc
 *.xdv
-.DS_Store
