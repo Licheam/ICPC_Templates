@@ -1,32 +1,13 @@
 /*
-    Coded with Leachim's ACM Template.
-    No errors. No warnings. ~~
-*/
-#include <bits/stdc++.h>
-#pragma GCC diagnostic ignored "-Wunused-const-variable"
-#pragma GCC diagnostic ignored "-Wsign-conversion"
-#pragma GCC diagnostic ignored "-Wsign-compare"
-#define LL long long
-using namespace std;
-const int inf=0x3f3f3f3f;
-const LL INF=0x3f3f3f3f3f3f3f3f;
-const double eps=1e-7;
-const int dx[4]={1,-1,0,0};
-const int dy[4]={0,0,1,-1};
-const int MOD=998244353;
-const int MAXN=2000005;
-
-LL gcd(LL x,LL y) {
-    if(!x || !y) return x+y;
-    return gcd(y,x%y);
-}
-
-/*
-    莫队:
+    莫队:[luogu]1494 (区间出现次数平方和)
     sqrt(m)个块
     块大小n/sqrt(m);
     卡常大小n/sqrt(m*2/3);
 */
+#include <bits/stdc++.h>
+#define LL long long
+using namespace std;
+const int MAXN=2000005;
 
 struct query {
     int l,r,id;
@@ -50,10 +31,10 @@ void modify(int x,int f) {
     sum+=cnt[a[x]]*cnt[a[x]];
 }
 
-void solve() {
+int main() {
     int n,m;
     scanf("%d %d", &n, &m);
-    block=n/sqrt(m*2/3);
+    block=max(1,(int)(n/sqrt(m*2/3)));
     for(int i=1;i<=n;i++) {
         scanf("%d", &a[i]);
         bl[i]=(i-1)/block+1;
@@ -74,18 +55,9 @@ void solve() {
         ans2[q[i].id]=1LL*(q[i].r-q[i].l+1)*(q[i].r-q[i].l);
     }
     for(int i=1;i<=m;i++) {
-        LL g=gcd(ans1[i],ans2[i]);
+        LL g=__gcd(ans1[i],ans2[i]);
         if(!g) printf("0/1\n");
         else printf("%lld/%lld\n", ans1[i]/g, ans2[i]/g);
-    }
-}
-
-int main() {
-    int T=1,cas=1;(void)(cas);
-    // scanf("%d", &T);
-    while(T--) {
-        // printf("Case #%d: ", cas++);
-        solve();
     }
     return 0;
 }
