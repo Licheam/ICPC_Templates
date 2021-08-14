@@ -23,8 +23,7 @@ struct complex {
     inline complex conj() { return complex(real, -imag); }
     inline complex operator+(complex rhs) const { return complex(real + rhs.real, imag + rhs.imag); }
     inline complex operator-(complex rhs) const { return complex(real - rhs.real, imag - rhs.imag); }
-    inline complex operator*(complex rhs) const { return complex(real * rhs.real - imag * rhs.imag,
-                                                                 imag * rhs.real + real * rhs.imag); }
+    inline complex operator*(complex rhs) const { return complex(real * rhs.real - imag * rhs.imag, imag * rhs.real + real * rhs.imag); }
     inline complex operator*=(complex rhs) { return (*this) = (*this) * rhs; }
     //(a+bi)(c+di) = (ac-bd) + (bc+ad)i
     friend inline complex operator*(D x, complex cp) { return complex(x * cp.real, x * cp.imag); }

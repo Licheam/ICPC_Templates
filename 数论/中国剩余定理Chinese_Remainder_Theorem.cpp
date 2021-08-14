@@ -1,7 +1,7 @@
 /*
     中国剩余定理
-    x%ai=bi;
-    sigma(ai*PI/ai*inv(PI/ai,ai))%PI;
+    $x \bmod a_i=b_i$
+    $ans=(\sum_ib_i\times (\prod_{j\not=i} a_j)*\text{inv}(\prod_{j\not=i} a_j,ai))\bmod \prod_ia_i$
 */
 #include <bits/stdc++.h>
 #define LL long long
