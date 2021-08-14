@@ -6,7 +6,7 @@ ICPC Templates of Leachim in LaTeX
 
 I will keep this updated.
 
-It may contain several open source code from online resources, which will be strictly enclosed with namespace and labeled with origin as comment.
+It may contain several open source code from online resources, which will be strictly enclosed with namespace and labeled with origin as comment(if possible).
 
 ## Compilation Guide
 
