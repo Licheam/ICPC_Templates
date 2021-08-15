@@ -20,7 +20,7 @@ It may contain several open source code from online resources, which will be str
 
 ## Compilation Guide 编译指南
 
-### Requirements 前置需求
+### Dependancy 依赖项
 
 XeLaTeX(Packages are listed in tex file), Pygments(For minted package to syntax highlight in code)
 
