@@ -24,7 +24,7 @@ It may contain several open source code from online resources, which will be str
 
 XeLaTeX(Packages are listed in tex file), Pygments(For minted package to syntax highlight in code)
 
-XeLaTeX can be obtained by installing LaTeX distribution on your device, for which Tex Live are recommanded.
+XeLaTeX can be obtained by installing LaTeX distribution on your device, for which [Tex Live](https://www.tug.org/texlive/) are recommanded.
 
 Pygments can be install by pip, just simply run
 ```bash
