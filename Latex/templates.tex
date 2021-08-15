@@ -1,28 +1,20 @@
-% !TEX TS-program = pdflatexmk
-\documentclass[10pt,a4paper]{ctexart}
-%\usepackage{zh\_CN-Adobefonts\_external}
+\documentclass[10pt,a4paper,twoside]{ctexart}
 \usepackage{xeCJK}
 \usepackage{amsmath, amsthm}
 \usepackage{listings,xcolor}
-\usepackage{geometry} % 设置页边距
+\usepackage{geometry}
 \usepackage{fontspec}
 \usepackage{graphicx}
 \usepackage[colorlinks, linkcolor=black]{hyperref}
-\usepackage{xcolor}
-% \usepackage{setspace}
-% \usepackage{pxfonts}
-\usepackage{fancyhdr} % 自定义页眉页脚
+\usepackage{fancyhdr}
 \usepackage{ctex}
 
 \usepackage{relsize}
-% \renewcommand{\_}{\textscale{.5}{\textunderscore}}
-\renewcommand{\_}{\textscale{1}{\textunderscore}}
+\renewcommand{\_}{\textscale{1}{\textunderscore}} %设置下划线长度
 
-\setmainfont{Monaco}
-\setmonofont{Monaco}
-\setsansfont{Monaco} % 设置英文字体
-% \setmonofont[Mapping={}]{Consolas} % 英文引号之类的正常显示，相当于设置英文字体
-% \setCJKmainfont{kai}  %中文字体设置
+\setmainfont{Menlo}
+\setmonofont{Menlo}
+\setsansfont{Menlo}
 \setCJKmainfont{Kai}
 
 \ctexset{
@@ -50,96 +42,24 @@
 
 \linespread{1.2}
 
-% \title{Template For ICPC}
-% \author{ChenJr @ GDUT}
-% \definecolor{dkgreen}{rgb}{0,0.6,0}
-% \definecolor{gray}{rgb}{0.5,0.5,0.5}
-% \definecolor{mauve}{rgb}{0.58,0,0.82}
-
 \pagestyle{fancy}
-
-% \lhead{Xidian University} %以下分别为左中右的页眉和页脚
-% \chead{Leachim}
-
-% \rhead{\CJKfamily{kai} 第 \thepage 页}
-
-% \lfoot{西安电子科技大学} 
-% \cfoot{\thepage}
-% \rfoot{}
+% \lfoot{Xidian University}
+% \rfoot{Leachim}
+\fancyfoot[LE,RO]{\thepage}
+\cfoot{}
+\fancyfoot[RE]{Xidian University}
+\fancyfoot[LO]{Leachim}
 
 \renewcommand{\headrulewidth}{0.4pt} 
-% \renewcommand{\footrulewidth}{0.4pt}
+\renewcommand{\footrulewidth}{0.4pt}
 
-% \geometry{left=2.5cm,right=2.5cm,top=2.5cm,bottom=2.5cm} % 页边距
-\geometry{left=3.18cm,right=3.18cm,top=2.54cm,bottom=2.54cm}
-% \setlength{\columnsep}{30pt}
-
-% \makeatletter
-
-% \makeatother
+\geometry{left=3.18cm,right=3.18cm,top=2.54cm,bottom=2.54cm} %A4打印页边距
 
 \usepackage{textcomp}
 
-
-\lstset{
-    % inputencoding = utf8,
-    % escapebegin=\begin{CJK*}{GBK}{Hei},escapeend=\end{CJK*},
-    language    = c++,
-    numbers     = left,
-    rulesepcolor= \color{gray},
-    breaklines=true,
-    numberstyle={                               % 设置行号格式
-        \small
-        \color{gray}
-        % \fontspec{Menlo Regular}
-    },
-	% commentstyle = \color[RGB]{0,128,0}\bfseries, %代码注释的颜色
-	commentstyle = \color{gray},
-	keywordstyle={                              % 设置关键字格式
-        \color[RGB]{175,50,175}
-        % \color{magenta}
-        % \fontspec{Menlo Regular}
-        \bfseries
-        % \bold
-    },
-	stringstyle={                               % 设置字符串格式
-        \color[RGB]{0,125,0}
-        % \fontspec{Menlo Regular}
-        \bfseries
-    },
-	basicstyle={                                % 设置代码格式
-        % \fontspec{Menlo}
-        \small\ttfamily
-    },
-    % identifierstyle=\color{black},
- %    morekeywords={alignas,continute,friend,register,true,alignof,decltype,goto,
- %    reinterpret\_cast,try,asm,defult,if,return,typedef,auto,delete,inline,short,
- %    typeid,bool,do,int,signed,typename,break,double,long,sizeof,union,case,
- %    dynamic\_cast,mutable,static,unsigned,catch,else,namespace,static\_assert,using,
- %    char,enum,new,static\_cast,virtual,char16\_t,char32\_t,explict,noexcept,struct,
- %    void,export,nullptr,switch,volatile,class,extern,operator,template,wchar\_t,
- %    const,false,private,this,while,constexpr,float,protected,thread\_local,
- %    const\_cast,for,public,throw,std},
- %    emph={map,set,multimap,multiset,unordered\_map,unordered\_set,
- %    unordered\_multiset,unordered\_multimap,vector,string,list,deque,
- %    array,stack,forwared\_list,iostream,memory,shared\_ptr,unique\_ptr,
- %    random,bitset,ostream,istream,cout,cin,endl,move,default\_random\_engine,
- %    uniform\_int\_distribution,iterator,algorithm,functional,bing,numeric,},
-	% emphstyle=\color[RGB]{112,64,160},          % 设置强调字格式
-    breaklines=true,                            % 设置自动换行
-    tabsize     = 4,
-    frame       = single,%主题
-    columns     = fullflexible,
-    % rulesepcolor = \color{red!20!green!20!blue!20}, %设置边框的颜色
-    rulesepcolor = \color{gray},
-    showstringspaces = false, %不显示代码字符串中间的空格标记
-	escapeinside={\%*}{*)},
-}
-
-
 \usepackage{minted}
 \renewcommand{\theFancyVerbLine}{\sffamily \textcolor[RGB]{128,128,128}{\small\arabic{FancyVerbLine}}}
-% \renewcommand{\theFancyVerbLine}{\textcolor[RGB]{211,211,211}\sffamily\small\arabic{FancyVerbLine}}
+
 \setminted[c++]{
     breaklines=true,
     breakautoindent=false,
@@ -151,10 +71,6 @@
     frame=single,
     style=arduino
 }
-
-\usepackage{relsize}
-% \renewcommand{\_}{\textscale{.5}{\textunderscore}}
-\renewcommand{\_}{\textscale{1}{\textunderscore}}
 
 \begin{document}
 \title{\zihao{0}{ICPC Templates}}
