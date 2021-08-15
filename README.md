@@ -8,6 +8,13 @@ I will keep this updated.
 
 It may contain several open source code from online resources, which will be strictly enclosed with namespace and labeled with origin as comment(if possible).
 
+## Features
+
+1. Easy to use and modify, highly modular. 容易使用和修改，高度模块化。
+2. Enable a neat Syntax Highlight. 拥有非常优雅的代码语法高亮。
+3. Highly printable. 可直接打印。
+4. Maintaining by a ICPC active competitor. 由ICPC现役选手维护。
+
 ## Compilation Guide
 
 ### Requirements
