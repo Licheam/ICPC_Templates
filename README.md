@@ -4,6 +4,9 @@
 ICPC Templates of Leachim in LaTeX
 这是我用LaTeX整理的ICPC模板（会持续更新）
 
+With a collection of implementation of Algorithms and Data Structure for Competitive Programming.
+拥有一系列竞技编程的算法和数据结构的实现
+
 I will keep this updated.
 
 It may contain several open source code from online resources, which will be strictly enclosed with namespace and labeled with origin as comment(if possible).
