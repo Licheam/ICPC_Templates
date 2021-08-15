@@ -31,7 +31,7 @@ Pygments can be install by pip, just simply run
 pip install Pygments
 ```
 
-### Compilation
+### Compilation 编译指南
 
 In the directory LaTeX, compile the templates.tex file using
 
@@ -42,7 +42,7 @@ If you encounter mistakes about pygmentize, it is posible that the flag "-shell-
 For the latter reason, you may want to install the pygments or make a soft link inside the tex folder.
 
 
-## Future Features
+## Future Features 计划中的功能
 
 Divide the tex file for each section. 将tex文件按章节分开。
 
