@@ -26,7 +26,7 @@ XeLaTeX(Packages are listed in tex file), Pygments(For minted package to syntax 
 
 XeLaTeX can be obtained by installing LaTeX distribution on your device, for which [Tex Live](https://www.tug.org/texlive/) are recommanded.
 
-Pygments can be install by pip, just simply run
+[Pygments](https://pygments.org/) can be install by pip, just simply run
 ```bash
 pip install Pygments
 ```
