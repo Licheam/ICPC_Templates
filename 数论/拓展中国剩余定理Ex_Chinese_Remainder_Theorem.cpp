@@ -1,6 +1,6 @@
 /*
     拓展中国剩余定理
-    x%ai=bi;
+    $x \equiv b_i \pmod{a_i}$
 */
 #include <bits/stdc++.h>
 #define LL long long

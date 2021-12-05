@@ -3,8 +3,8 @@
 	本质不同个数=sigma(颜色个数^等价置换的划分个数)/(等价置换总个数)
 
 	例题：n条个点围成一圈，m种颜色。求染色旋转本质不同个数。
-	ans = sigma(m^gcd(n,i))/n
-		= sigma(m^d * phi(n/d))/n  ----- 莫比乌斯反演
+	ans = $\frac1n\sum\limits_{i=1}^n(m^{\gcd(n,i)})$
+		= $\frac1n\sum\limits_{d|n}(m^d\varphi(\frac{n}{d}))$  ----- 莫比乌斯反演
 */
 #include <bits/stdc++.h>
 #define LL long long

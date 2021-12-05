@@ -10,6 +10,7 @@ It may contain several open source code from online resources, which will be str
 
 ## Features
 
+1. Enable Math Formula in LaTeX display in comments. 支持在注释内显示LaTeX数学公式
 1. Easy to use and modify, highly modular. 容易使用和修改，高度模块化。
 2. Enable a neat Syntax Highlight. 拥有非常优雅的代码语法高亮。
 3. Highly printable. 可直接打印。
@@ -32,4 +33,3 @@ xelatex -shell-escape templates
 ## Future Features
 
 Divide the tex file for each section. 将tex文件按章节分开。
-

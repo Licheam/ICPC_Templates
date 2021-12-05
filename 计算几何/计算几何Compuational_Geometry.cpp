@@ -86,7 +86,7 @@ struct Line {//点向式+两点。既可以line也可以seg
 typedef Line Segment;
 
 bool OnLine(Point P,Line l) {//判断点P是否在直线L上
-    return sgn((P-l.p1)^l.v);
+    return sgn((P-l.p1)^l.v)==0;
 }
 
 Point GetIntersection(Line l1, Line l2) {//求直线交点
@@ -110,6 +110,17 @@ bool InSegmentIntersection(Segment s1, Segment s2) {//不允许端点相交
     double c1=(s1.p2-s1.p1)^(s2.p1-s1.p1), c2=(s1.p2-s1.p1)^(s2.p2-s1.p1);
     double c3=(s2.p2-s2.p1)^(s1.p1-s2.p1), c4=(s2.p2-s2.p1)^(s1.p2-s2.p1);
     return (sgn(c1)*sgn(c2)<0 && sgn(c3)*sgn(c4)<0);
+}
+
+Point Excenter(Point A, Point B, Point C) {//三点确定外接圆圆心坐标
+    double a1=B.x-A.x;
+    double b1=B.y-A.y;
+    double c1=(a1*a1+b1*b1)/2;
+    double a2=C.x-A.x;
+    double b2=C.y-A.y;
+    double c2=(a2*a2+b2*b2)/2;
+    double d=a1*b2-a2*b1;
+    return Point(A.x+(c1*b2-c2*b1)/d,A.y+(a1*c2-a2*c1)/d);
 }
 
 void solve() {

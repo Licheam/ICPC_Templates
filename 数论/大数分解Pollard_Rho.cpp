@@ -1,6 +1,6 @@
 /*
     Pollard_Rho分解因数，要保证放入的为合数。
-    期望复杂度O(n^(1/4))，要随机化。
+    期望复杂度$O(n^{\frac14})$，要随机化。
 */
 #include <bits/stdc++.h>
 #define LL long long
