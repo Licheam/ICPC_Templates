@@ -2,7 +2,7 @@
 ## General Information 简介
 
 ICPC Templates of Leachim in LaTeX
-这是我用LaTeX整理的ICPC模板（会持续更新）
+这是我用LaTeX整理的ICPC模板
 
 With a collection of implementation of Algorithms and Data Structure for Competitive Programming.
 拥有一系列竞技编程的算法和数据结构的实现
@@ -17,7 +17,7 @@ It may contain several open source code from online resources, which will be str
 1. Easy to use and modify, highly modular. 容易使用和修改，高度模块化。
 2. Enable a neat Syntax Highlight. 拥有非常优雅的代码语法高亮。
 3. Highly printable. 可直接打印。
-4. Maintaining by a ICPC active competitor. 由ICPC现役选手维护。
+4. Maintained by a ICPC retired competitor. 被ICPC退役选手维护过。
 
 ## Compilation Guide 编译指南
 
