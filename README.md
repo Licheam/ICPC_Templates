@@ -37,8 +37,9 @@ In the directory LaTeX, compile the templates.tex file using
 ```bash
 xelatex -shell-escape templates
 ```
-If you encounter mistakes about pygmentize, it is posible that the flag "-shell-escape" is left or you didn't config the path for pygments properly.
-For the latter reason, you may want to install the pygments or make a soft link inside the tex folder.
+If you encounter mistakes about pygmentize, it is posible that the flag "-shell-escape" is left or you didn't configure the path for pygments properly.
+
+For the latter reason, you may want to make a soft link or directly install the pygments inside the tex folder.
 
 
 ## Future Features 计划中的功能
