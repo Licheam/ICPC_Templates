@@ -1,5 +1,10 @@
 # ICPC 模板
 
+<p align="center">
+  <a href="/README.md">English</a> •
+  <a href="/README.zh-CN.md">简体中文 (Simplified Chinese)</a>
+</p>
+
 ## 简介
 
 Leachim 的 ICPC 模板（使用 LaTeX）
