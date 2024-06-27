@@ -1,5 +1,8 @@
 # ICPC Templates
-[简体中文](readme/README.zh_CN.md)
+<p align="center">
+  <a href="/docs/README.md">English</a> •
+  <a href="/docs/README.zh-CN.md">简体中文 (Simplified Chinese)</a>
+</p>
 ## Introduction
 
 ICPC Templates of Leachim in LaTeX
