@@ -1,7 +1,7 @@
 # ICPC Templates
 <p align="center">
-  <a href="/docs/README.md">English</a> •
-  <a href="/docs/README.zh-CN.md">简体中文 (Simplified Chinese)</a>
+  <a href="/README.md">English</a> •
+  <a href="/README.zh-CN.md">简体中文 (Simplified Chinese)</a>
 </p>
 ## Introduction
 
