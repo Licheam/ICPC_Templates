@@ -1,4 +1,5 @@
 # ICPC Templates
+- zh_CN [简体中文](readme/README.zh_CN.md)
 ## Introduction
 
 ICPC Templates of Leachim in LaTeX
