@@ -1,5 +1,4 @@
-\documentclass[10pt,a4paper,twoside]{ctexart}
-\usepackage{xeCJK}
+\documentclass[10pt,a4paper,twoside]{ctexbook}
 \usepackage{amsmath, amsthm}
 \usepackage{listings,xcolor}
 \usepackage{geometry}
@@ -27,6 +26,7 @@
 }
 \ctexset{
     subsection={
+        number={\arabic{section}.\arabic{subsection}},
         format={\zihao{-4}},
         aftername={ }
     }
@@ -72,14 +72,39 @@
     style=arduino
 }
 
-\begin{document}
-\title{\zihao{0}{ICPC Templates}}
-\author {\zihao{2}{Leachim}\\\zihao{4}{Xidian University}}
-\maketitle
+\setminted[rust]{
+    breaklines=true,
+    breakautoindent=false,
+    breakanywhere=true,
+    % escapeinside=\#\%,
+    % mathescape=true,
+    linenos=true,
+    tabsize=4,
+    frame=single,
+    style=arduino
+}
 
-\begin{figure}[htbp]
-    \centering{\includegraphics[width=10cm]{../Figures/ICPC.png}}
-\end{figure}
+\begin{document}
+
+\begin{titlepage}
+    \centering
+    \vspace*{2cm}
+    
+    {\zihao{0}{ICPC Templates}\par}
+    \vspace{1.5cm}
+    
+    {\zihao{2}{Leachim}\par}
+    \vfill
+
+    {\zihao{4}{Xidian University}\par}
+    \vfill
+    
+    \includegraphics[width=0.8\textwidth]{../Figures/ICPC.png}
+    \vfill
+    
+    {\Large \today \par}
+\end{titlepage}
+
 \thispagestyle{empty}
 
 \newpage
@@ -87,210 +112,214 @@
 \tableofcontents
 
 \newpage
+\chapter{C++模板}
 \section{图论}
 \subsection{树的重心Get\_Centroid}
-\inputminted{c++}{../图论/树的重心Get_Centroid.cpp}
+\inputminted{c++}{../Cpp/图论/树的重心Get_Centroid.cpp}
 \subsection{最小生成树Kruskal}
-\inputminted{c++}{../图论/最小生成树Kruskal.cpp}
+\inputminted{c++}{../Cpp/图论/最小生成树Kruskal.cpp}
 \subsection{最小生成树Prim}
-\inputminted{c++}{../图论/最小生成树Prim.cpp}
+\inputminted{c++}{../Cpp/图论/最小生成树Prim.cpp}
 \subsection{最短路Djikstra}
-\inputminted{c++}{../图论/最短路Djikstra.cpp}
+\inputminted{c++}{../Cpp/图论/最短路Djikstra.cpp}
 \subsection{最短路SPFA}
-\inputminted{c++}{../图论/最短路SPFA.cpp}
+\inputminted{c++}{../Cpp/图论/最短路SPFA.cpp}
 \subsection{最近公共祖先LCA\_Doubling}
-\inputminted{c++}{../图论/最近公共祖先LCA_Doubling.cpp}
+\inputminted{c++}{../Cpp/图论/最近公共祖先LCA_Doubling.cpp}
 \subsection{最近公共祖先LCA\_Tarjan}
-\inputminted{c++}{../图论/最近公共祖先LCA_Tarjan.cpp}
+\inputminted{c++}{../Cpp/图论/最近公共祖先LCA_Tarjan.cpp}
 \subsection{最近公共祖先LCA\_Heavy-Light\_Decomposition}
-\inputminted{c++}{../图论/最近公共祖先LCA_Heavy-Light_Decomposition.cpp}
+\inputminted{c++}{../Cpp/图论/最近公共祖先LCA_Heavy-Light_Decomposition.cpp}
 \subsection{判断负环SPFA\_Negtive\_Cycle}
-\inputminted{c++}{../图论/判断负环SPFA_Negtive_Cycle.cpp}
+\inputminted{c++}{../Cpp/图论/判断负环SPFA_Negtive_Cycle.cpp}
 \subsection{拓扑排序Topological\_Sort\_Khan}
-\inputminted{c++}{../图论/拓扑排序Topological_Sort_Khan.cpp}
+\inputminted{c++}{../Cpp/图论/拓扑排序Topological_Sort_Khan.cpp}
 \subsection{树链剖分Heavy-Light\_Decomposition}
-\inputminted{c++}{../图论/树链剖分Heavy-Light_Decomposition.cpp}
+\inputminted{c++}{../Cpp/图论/树链剖分Heavy-Light_Decomposition.cpp}
 
 \newpage
 \section{多项式}
 \subsection{FFT字符串匹配String\_Match\_FFT}
-\inputminted{c++}{../多项式/FFT字符串匹配String_Match_FFT.cpp}
+\inputminted{c++}{../Cpp/多项式/FFT字符串匹配String_Match_FFT.cpp}
 \subsection{FFT递归Fast\_Fourier\_Transform\_Cooley-Tukey\_Recursion}
-\inputminted{c++}{../多项式/FFT递归Fast_Fourier_Transform_Cooley-Tukey_Recursion.cpp}
+\inputminted{c++}{../Cpp/多项式/FFT递归Fast_Fourier_Transform_Cooley-Tukey_Recursion.cpp}
 \subsection{FFT递推Fast\_Fourier\_Transform\_Cooley-Tukey\_Iteration}
-\inputminted{c++}{../多项式/FFT递推Fast_Fourier_Transform_Cooley-Tukey_Iteration.cpp}
+\inputminted{c++}{../Cpp/多项式/FFT递推Fast_Fourier_Transform_Cooley-Tukey_Iteration.cpp}
 \subsection{NTT递推Number\_Theoretic\_Transforms}
-\inputminted{c++}{../多项式/NTT递推Number_Theoretic_Transforms.cpp}
+\inputminted{c++}{../Cpp/多项式/NTT递推Number_Theoretic_Transforms.cpp}
 \subsection{MTT任意模数Fast\_Fourier\_Transform\_MOD}
-\inputminted{c++}{../多项式/MTT任意模数Fast_Fourier_Transform_MOD.cpp}
+\inputminted{c++}{../Cpp/多项式/MTT任意模数Fast_Fourier_Transform_MOD.cpp}
 \subsection{多项式求逆Polynomial\_Inverse}
-\inputminted{c++}{../多项式/多项式求逆Polynomial_Inverse.cpp}
+\inputminted{c++}{../Cpp/多项式/多项式求逆Polynomial_Inverse.cpp}
 
 \newpage
 \section{字符串}
 \subsection{字符串哈希String\_Hash}
-\inputminted{c++}{../字符串/字符串哈希String_Hash.cpp}
+\inputminted{c++}{../Cpp/字符串/字符串哈希String_Hash.cpp}
 \subsection{最小表示法Lexicographically\_Minimal\_String\_Rotation}
-\inputminted{c++}{../字符串/最小表示法Lexicographically_Minimal_String_Rotation.cpp}
+\inputminted{c++}{../Cpp/字符串/最小表示法Lexicographically_Minimal_String_Rotation.cpp}
 \subsection{马拉车Manacher}
-\inputminted{c++}{../字符串/马拉车Manacher.cpp}
+\inputminted{c++}{../Cpp/字符串/马拉车Manacher.cpp}
 \subsection{字符串匹配KMP}
-\inputminted{c++}{../字符串/字符串匹配KMP.cpp}
+\inputminted{c++}{../Cpp/字符串/字符串匹配KMP.cpp}
 \subsection{AC自动机AC-Automaton}
-\inputminted{c++}{../字符串/AC自动机AC-Automaton.cpp}
+\inputminted{c++}{../Cpp/字符串/AC自动机AC-Automaton.cpp}
 \subsection{后缀数组Suffix\_Array}
-\inputminted{c++}{../字符串/后缀数组Suffix_Array.cpp}
+\inputminted{c++}{../Cpp/字符串/后缀数组Suffix_Array.cpp}
 \subsection{后缀自动机Suffix-Automaton}
-\inputminted{c++}{../字符串/后缀自动机Suffix-Automaton.cpp}
+\inputminted{c++}{../Cpp/字符串/后缀自动机Suffix-Automaton.cpp}
 \subsection{广义后缀自动机General\_Suffix-Automaton}
-\inputminted{c++}{../字符串/广义后缀自动机General_Suffix-Automaton.cpp}
+\inputminted{c++}{../Cpp/字符串/广义后缀自动机General_Suffix-Automaton.cpp}
 
 \newpage
 \section{数据结构}
 \subsection{并查集Disjoin\_Set\_Union}
-\inputminted{c++}{../数据结构/并查集Disjoin_Set_Union.cpp}
+\inputminted{c++}{../Cpp/数据结构/并查集Disjoin_Set_Union.cpp}
 \subsection{可撤销并查集Disjoin\_Set\_Union\_Withdrawable}
-\inputminted{c++}{../数据结构/可撤销并查集Disjoin_Set_Union_Withdrawable.cpp}
+\inputminted{c++}{../Cpp/数据结构/可撤销并查集Disjoin_Set_Union_Withdrawable.cpp}
 \subsection{分块Block\_1}
-\inputminted{c++}{../数据结构/分块Block_1.cpp}
+\inputminted{c++}{../Cpp/数据结构/分块Block_1.cpp}
 \subsection{分块Block\_2}
-\inputminted{c++}{../数据结构/分块Block_2.cpp}
+\inputminted{c++}{../Cpp/数据结构/分块Block_2.cpp}
 \subsection{分块Block\_4}
-\inputminted{c++}{../数据结构/分块Block_4.cpp}
+\inputminted{c++}{../Cpp/数据结构/分块Block_4.cpp}
 \subsection{树状数组Binary\_Indexed\_Tree}
-\inputminted{c++}{../数据结构/树状数组Binary_Indexed_Tree.cpp}
+\inputminted{c++}{../Cpp/数据结构/树状数组Binary_Indexed_Tree.cpp}
 \subsection{二维树状数组2D\_Binary\_Indexed\_Tree}
-\inputminted{c++}{../数据结构/二维树状数组2D_Binary_Indexed_Tree.cpp}
+\inputminted{c++}{../Cpp/数据结构/二维树状数组2D_Binary_Indexed_Tree.cpp}
 \subsection{线段树Segment\_Tree}
-\inputminted{c++}{../数据结构/线段树Segment_Tree.cpp}
+\inputminted{c++}{../Cpp/数据结构/线段树Segment_Tree.cpp}
 \subsection{线段树Segment\_Tree\_Multiply}
-\inputminted{c++}{../数据结构/线段树Segment_Tree_Multiply.cpp}
+\inputminted{c++}{../Cpp/数据结构/线段树Segment_Tree_Multiply.cpp}
 \subsection{扫描线Scanline}
-\inputminted{c++}{../数据结构/扫描线Scanline.cpp}
+\inputminted{c++}{../Cpp/数据结构/扫描线Scanline.cpp}
 \subsection{zkw线段树ZKW\_Segment\_Tree}
-\inputminted{c++}{../数据结构/zkw线段树ZKW_Segment_Tree.cpp}
+\inputminted{c++}{../Cpp/数据结构/zkw线段树ZKW_Segment_Tree.cpp}
 \subsection{吉司机线段树Segment\_Tree\_Beats.cpp}
-\inputminted{c++}{../数据结构/吉司机线段树Segment_Tree_Beats.cpp}
+\inputminted{c++}{../Cpp/数据结构/吉司机线段树Segment_Tree_Beats.cpp}
 \subsection{李超线段树Li-Chao\_Segment\_Tree}
-\inputminted{c++}{../数据结构/李超线段树Li-Chao_Segment_Tree.cpp}
+\inputminted{c++}{../Cpp/数据结构/李超线段树Li-Chao_Segment_Tree.cpp}
 \subsection{可并堆左偏树Leftist\_Tree}
-\inputminted{c++}{../数据结构/可并堆左偏树Leftist_Tree.cpp}
+\inputminted{c++}{../Cpp/数据结构/可并堆左偏树Leftist_Tree.cpp}
 \subsection{Splay树Splay\_Tree}
-\inputminted{c++}{../数据结构/Splay树Splay_Tree.cpp}
+\inputminted{c++}{../Cpp/数据结构/Splay树Splay_Tree.cpp}
 \subsection{Splay树Splay\_Tree\_Flip}
-\inputminted{c++}{../数据结构/Splay树Splay_Tree_Flip.cpp}
+\inputminted{c++}{../Cpp/数据结构/Splay树Splay_Tree_Flip.cpp}
 \subsection{Splay树Splay\_Tree\_Dye\&Flip}
-\inputminted{c++}{../数据结构/Splay树Splay_Tree_Dye\&Flip.cpp}
+\inputminted{c++}{../Cpp/数据结构/Splay树Splay_Tree_Dye\&Flip.cpp}
 \subsection{动态树Link-Cut\_Tree}
-\inputminted{c++}{../数据结构/动态树Link-Cut_Tree.cpp}
+\inputminted{c++}{../Cpp/数据结构/动态树Link-Cut_Tree.cpp}
 \subsection{红黑树Red\_Black\_Tree}
-\inputminted{c++}{../数据结构/红黑树Red_Black_Tree.cpp}
+\inputminted{c++}{../Cpp/数据结构/红黑树Red_Black_Tree.cpp}
 
 \newpage
 \section{数论}
 \subsection{线性求逆元Modular\_Multiplicative\_Inverse}
-\inputminted{c++}{../数论/线性求逆元Modular_Multiplicative_Inverse.cpp}
+\inputminted{c++}{../Cpp/数论/线性求逆元Modular_Multiplicative_Inverse.cpp}
 \subsection{数论分块Block\_Division}
-\inputminted{c++}{../数论/数论分块Block_Division.cpp}
+\inputminted{c++}{../Cpp/数论/数论分块Block_Division.cpp}
 \subsection{贝祖引理Bezout\_Lemma}
-\inputminted{c++}{../数论/贝祖引理Bezout_Lemma.cpp}
+\inputminted{c++}{../Cpp/数论/贝祖引理Bezout_Lemma.cpp}
 \subsection{卢卡斯Lucas}
-\inputminted{c++}{../数论/卢卡斯Lucas.cpp}
+\inputminted{c++}{../Cpp/数论/卢卡斯Lucas.cpp}
 \subsection{拓展欧几里得Exgcd}
-\inputminted{c++}{../数论/拓展欧几里得Exgcd.cpp}
+\inputminted{c++}{../Cpp/数论/拓展欧几里得Exgcd.cpp}
 \subsection{拓展欧拉定理Ex\_Euler\_Theorem-Automaton}
-\inputminted{c++}{../数论/拓展欧拉定理Ex_Euler_Theorem.cpp}
+\inputminted{c++}{../Cpp/数论/拓展欧拉定理Ex_Euler_Theorem.cpp}
 \subsection{中国剩余定理Chinese\_Remainder\_Theorem}
-\inputminted{c++}{../数论/中国剩余定理Chinese_Remainder_Theorem.cpp}
+\inputminted{c++}{../Cpp/数论/中国剩余定理Chinese_Remainder_Theorem.cpp}
 \subsection{拓展中国剩余定理Ex\_Chinese\_Remainder\_Theorem}
-\inputminted{c++}{../数论/拓展中国剩余定理Ex_Chinese_Remainder_Theorem.cpp}
+\inputminted{c++}{../Cpp/数论/拓展中国剩余定理Ex_Chinese_Remainder_Theorem.cpp}
 \subsection{欧拉筛Eular\_Sieve}
-\inputminted{c++}{../数论/欧拉筛Eular_Sieve.cpp}
+\inputminted{c++}{../Cpp/数论/欧拉筛Eular_Sieve.cpp}
 \subsection{杜教筛Dujiao\_Sieve}
-\inputminted{c++}{../数论/杜教筛Dujiao_Sieve.cpp}
+\inputminted{c++}{../Cpp/数论/杜教筛Dujiao_Sieve.cpp}
 \subsection{求原根Get\_Primitive\_Root}
-\inputminted{c++}{../数论/求原根Get_Primitive_Root.cpp}
+\inputminted{c++}{../Cpp/数论/求原根Get_Primitive_Root.cpp}
 \subsection{素数测试Miller\_Rabin}
-\inputminted{c++}{../数论/素数测试Miller_Rabin.cpp}
+\inputminted{c++}{../Cpp/数论/素数测试Miller_Rabin.cpp}
 \subsection{大数分解Pollard\_Rho}
-\inputminted{c++}{../数论/大数分解Pollard_Rho.cpp}
+\inputminted{c++}{../Cpp/数论/大数分解Pollard_Rho.cpp}
 
 
 \newpage
 \section{组合数学}
 \subsection{康托展开Cantor}
-\inputminted{c++}{../组合数学/康托展开Cantor.cpp}
+\inputminted{c++}{../Cpp/组合数学/康托展开Cantor.cpp}
 \subsection{波利亚P\'{o}lya}
-\inputminted{c++}{../组合数学/波利亚Polya.cpp}
+\inputminted{c++}{../Cpp/组合数学/波利亚Polya.cpp}
 \subsection{卡特兰数Catalan}
-\input{../组合数学/卡特兰数Catalan.tex}
+\input{../Cpp/组合数学/卡特兰数Catalan.tex}
 \subsection{斯特林数Stirling}
-\input{../组合数学/斯特林数Stirling.tex}
+\input{../Cpp/组合数学/斯特林数Stirling.tex}
 \subsection{范德蒙德卷积Vandermonde\_Convolution}
-\input{../组合数学/范德蒙德卷积Vandermonde_Convolution.tex}
+\input{../Cpp/组合数学/范德蒙德卷积Vandermonde_Convolution.tex}
 
 
 \newpage
 \section{网络流}
 \subsection{最大费用流Minimum-Cost\_Flow\_Edmonds-Karp}
-\inputminted{c++}{../网络流/最大费用流Minimum-Cost_Flow_Edmonds-Karp.cpp}
+\inputminted{c++}{../Cpp/网络流/最大费用流Minimum-Cost_Flow_Edmonds-Karp.cpp}
 \subsection{最大流Maximum\_Flow\_Edmonds-Karp}
-\inputminted{c++}{../网络流/最大流Maximum_Flow_Edmonds-Karp.cpp}
+\inputminted{c++}{../Cpp/网络流/最大流Maximum_Flow_Edmonds-Karp.cpp}
 \subsection{最大流Maximum\_Flow\_Dinic}
-\inputminted{c++}{../网络流/最大流Maximum_Flow_Dinic.cpp}
+\inputminted{c++}{../Cpp/网络流/最大流Maximum_Flow_Dinic.cpp}
 \subsection{二分图最大匹配Bipartite\_Graph\_Maximum\_Matching\_Dinic}
-\inputminted{c++}{../网络流/二分图最大匹配Bipartite_Graph_Maximum_Matching_Dinic.cpp}
+\inputminted{c++}{../Cpp/网络流/二分图最大匹配Bipartite_Graph_Maximum_Matching_Dinic.cpp}
 \subsection{二分图最大匹配Bipartite\_Graph\_Maximum\_Matching\_Hungarian}
-\inputminted{c++}{../网络流/二分图最大匹配Bipartite_Graph_Maximum_Matching_Hungarian.cpp}
+\inputminted{c++}{../Cpp/网络流/二分图最大匹配Bipartite_Graph_Maximum_Matching_Hungarian.cpp}
 \subsection{二分图最大匹配Bipartite\_Graph\_Maximum\_Matching\_Hopcroft-Karp}
-\inputminted{c++}{../网络流/二分图最大匹配Bipartite_Graph_Maximum_Matching_Hopcroft-Karp.cpp}
+\inputminted{c++}{../Cpp/网络流/二分图最大匹配Bipartite_Graph_Maximum_Matching_Hopcroft-Karp.cpp}
 
 \newpage
 \section{计算几何}
 \subsection{计算几何Compuational\_Geometry}
-\inputminted{c++}{../计算几何/计算几何Compuational_Geometry.cpp}
+\inputminted{c++}{../Cpp/计算几何/计算几何Compuational_Geometry.cpp}
 \subsection{圆的K次面积交K-Intersection\_Area\_of\_Circles}
-\inputminted{c++}{../计算几何/圆的K次面积交K-Intersection_Area_of_Circles.cpp}
+\inputminted{c++}{../Cpp/计算几何/圆的K次面积交K-Intersection_Area_of_Circles.cpp}
 \subsection{构造凸包+旋转卡壳Graham\_Scan+Rotating\_Calipers.cpp}
-\inputminted{c++}{../计算几何/构造凸包+旋转卡壳Graham_Scan+Rotating_Calipers.cpp}
+\inputminted{c++}{../Cpp/计算几何/构造凸包+旋转卡壳Graham_Scan+Rotating_Calipers.cpp}
 \newpage
 \section{优化算法}
 \subsection{wqs二分+决策单调性dp}
-\inputminted{c++}{../优化算法/wqs二分+决策单调性dp.cpp}
+\inputminted{c++}{../Cpp/优化算法/wqs二分+决策单调性dp.cpp}
 \subsection{斜率优化Slope\_Optimization}
-\inputminted{c++}{../优化算法/斜率优化Slope_Optimization.cpp}
+\inputminted{c++}{../Cpp/优化算法/斜率优化Slope_Optimization.cpp}
 
 \newpage
 \section{离线算法}
 \subsection{莫队算法Mo}
-\inputminted{c++}{../离线算法/莫队算法Mo.cpp}
+\inputminted{c++}{../Cpp/离线算法/莫队算法Mo.cpp}
 \subsection{线段树分治Segment\_Tree\_Partition}
-\inputminted{c++}{../离线算法/线段树分治Segment_Tree_Partition.cpp}
+\inputminted{c++}{../Cpp/离线算法/线段树分治Segment_Tree_Partition.cpp}
 
 \newpage
 \section{杂项}
 \subsection{快读快写Fast\_Read\&Write}
-\inputminted{c++}{../杂项/快读快写Fast_Read\&Write.cpp}
+\inputminted{c++}{../Cpp/杂项/快读快写Fast_Read\&Write.cpp}
 \subsection{快速幂Fast\_Power}
-\inputminted{c++}{../杂项/快速幂Fast_Power.cpp}
+\inputminted{c++}{../Cpp/杂项/快速幂Fast_Power.cpp}
 \subsection{矩阵快速幂Matrix\_Fast\_Power}
-\inputminted{c++}{../杂项/矩阵快速幂Matrix_Fast_Power.cpp}
+\inputminted{c++}{../Cpp/杂项/矩阵快速幂Matrix_Fast_Power.cpp}
 \subsection{矩阵加速Matrix\_Acceleration}
-\inputminted{c++}{../杂项/矩阵加速Matrix_Acceleration.cpp}
+\inputminted{c++}{../Cpp/杂项/矩阵加速Matrix_Acceleration.cpp}
 \subsection{最长公共子序列Longest\_Increasing\_Subsequence}
-\inputminted{c++}{../杂项/最长公共子序列Longest_Increasing_Subsequence.cpp}
+\inputminted{c++}{../Cpp/杂项/最长公共子序列Longest_Increasing_Subsequence.cpp}
 \subsection{模拟退火Simulated\_Annealing}
-\inputminted{c++}{../杂项/模拟退火Simulated_Annealing.cpp}
+\inputminted{c++}{../Cpp/杂项/模拟退火Simulated_Annealing.cpp}
 \subsection{快速沃尔什变换Fast\_Walsh\_Transform}
-\inputminted{c++}{../杂项/快速沃尔什变换Fast_Walsh_Transform.cpp}
+\inputminted{c++}{../Cpp/杂项/快速沃尔什变换Fast_Walsh_Transform.cpp}
 \subsection{快速莫比乌斯变换Fast\_Mobius\_Transform}
-\inputminted{c++}{../杂项/快速莫比乌斯变换Fast_Mobius_Transform.cpp}
+\inputminted{c++}{../Cpp/杂项/快速莫比乌斯变换Fast_Mobius_Transform.cpp}
 \subsection{快速子集变换Fast\_Subset\_Transform}
-\inputminted{c++}{../杂项/快速子集变换Fast_Subset_Transform.cpp}
+\inputminted{c++}{../Cpp/杂项/快速子集变换Fast_Subset_Transform.cpp}
 \subsection{24点24\_Point}
-\inputminted{c++}{../杂项/24点24_Point.cpp}
+\inputminted{c++}{../Cpp/杂项/24点24_Point.cpp}
 
-
+\chapter{Rust模板}
+\section{工具}
+\subsection{读入Read}
+\inputminted{rust}{../Rust/工具/读入Read.rs}
 
 
 \end{document}
