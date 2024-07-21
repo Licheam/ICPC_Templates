@@ -3,6 +3,7 @@
   <a href="/README.md">English</a> •
   <a href="/README.zh-CN.md">简体中文 (Simplified Chinese)</a>
 </p>
+
 ## Introduction
 
 ICPC Templates of Leachim in LaTeX
